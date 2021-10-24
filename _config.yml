@@ -1,3 +1,86 @@
-theme: jekyll-theme-midnight
-title: Welcome to Maxime's homepage!
-description: Just learning how to create my own website...
+### Site Settings ###
+title               : Maxime Raafat
+description         : Enthusiastic AI and computer vision developer, enjoying creating artistic renders in my free time
+# Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : ''
+# Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : maximeraafat/maximeraafat.github.io
+remote_theme        : YoussefRaafatNasry/portfolYOU
+# Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : false
+
+### Plugins ###
+plugins:
+  - jemoji
+
+### Navbar Settings ###
+nav_exclude: # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+### Author Info ###
+author:
+  name              : Maxime Raafat
+  image             : https://cdnb.artstation.com/p/users/avatars/001/176/391/large/5f2428651c7ffae16fbe75d9c322032d.jpg
+  email             : maxime.raafat@yahoo.com
+  linkedin          : maximeraafat
+  github            : maximeraafat
+  gitlab            : maximeraafat
+  instagram         : maximeraafat
+  # facebook          : your_username
+  # behance           : your_username
+  # dribbble          : your_username
+  # kaggle            : your_username
+  # medium            : your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  # twitter           : your_username
+  # vimeo             : your_username
+  # youtube           : your_channel_name
+  # keybase           : your_username
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
