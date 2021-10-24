@@ -1,7 +1,13 @@
-<div align="center">
-    <h1>portfolYOU</h1>
-    <i>A beautiful portfolio Jekyll theme that works with GitHub Pages.</i>
-    <br><br>
-    <img src="screenshot.gif">
-    <sub><sup>© 2019 portfolYOU, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
-</div>
+Maxime Raafat portfolio Website
+
+==================
+
+Jekyll theme based on the [**portfolYOU**](https://youssefraafatnasry.github.io/portfolYOU) theme licensed under the [MIT License](./LICENSE).
+
+# Jekyll + dependencies
+- Install Jekyll by following the steps explained [here](https://jekyllrb.com/docs).
+
+- To resolve issues related to gem dependencies, try
+```bash
+bundle update
+```
