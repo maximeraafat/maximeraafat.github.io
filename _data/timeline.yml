@@ -1,17 +1,12 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: MSc CSE Student, ETH Zurich
+  from: 2020
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Master in Computational Science & Engineering at ETH Zurich in Switzerland. <br>
+               Specialization in Computer Vision/Graphics and Machine Learning.
+               Focus on Neural Rendering.
+
+- title: BSc CSE Student, ETH Zurich
+  from: 2017
+  to: 2020
+  description: Bachelor in Computational Science & Engineering at ETH Zurich in Switzerland. <br>
+               Specialization in Robotics with a focus in Control Theory.

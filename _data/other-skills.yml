@@ -1,7 +1,9 @@
-- name: Adobe Photoshop
+# see bootstrap colors
+
+- name: Blender
   percentage: 95
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: Inkscape
+  percentage: 85
   color: success
