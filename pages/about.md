@@ -35,7 +35,7 @@ function calculateAge(year, month, day) {
 Already <script type="text/javascript"> document.write(calculateAge(1998, 06, 18)) </script> revolutions around the sun, still not a single coffee during my long coding nights (and days). <br>
 I aspire to make the world a better place through AI and computer vision driven innovations, while still enjoying each moment spent along my family, friends and PlayStation.
 
-Wanna know more? Have a look at my Projects!
+Wanna know more? Have a look at my [Projects](/projects) or my [Blog](/blog)! <br>
 You saw enough already? You should check out [Zuri Bistro](https://www.zueribistro.ch){:target="_blank"} (they do damn good kebabs).
 
 
