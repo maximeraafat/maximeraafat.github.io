@@ -3,6 +3,7 @@ name: Machine Perception Project
 tools: [Optical Flow, Deep Learning, Computer Vision]
 image: https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/material_design_awards_inline_002.jpg
 description: Report for the Machine Perception Project on Estimating Optical Flow
+rank: 1
 ---
 
 # {{ page.name }}
@@ -17,7 +18,7 @@ description: Report for the Machine Perception Project on Estimating Optical Flo
 
 <div align="center">
   <a href="/assets/projects/machine_perception.pdf" target="_blank">
-    <img src="/assets/projects/machine_perception.pdf" alt="deepfake_ppt.pdf" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black">
+    <img src="/assets/projects/machine_perception_cover.pdf" alt="machine_perception" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black; width:100%; height:100%">
   </a>
 </div>
 

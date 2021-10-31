@@ -3,6 +3,7 @@ name: SSC Website Development
 tools: [Sustainability, Web Development, ETH Zurich]
 image: https://www.sketchappsources.com/resources/source-image/coo-app-concept-subgaurav.jpg
 description: Full development of the static website for the Student Sustainability Commission at ETH Zurich
+rank: 3
 ---
 
 # {{ page.name }}
@@ -17,7 +18,7 @@ I also was responsible for their new logo.
 
 <div align="center">
   <a href="https://ssc.ethz.ch" target="_blank">
-    <img src="/assets/projects/ssc_logo.svg" alt="deepfake_ppt.pdf" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black">
+    <img src="/assets/projects/ssc_logo.svg" alt="ssc_logo" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black; width:100%; height:100%">
   </a>
 </div>
 

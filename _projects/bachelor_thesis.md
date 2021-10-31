@@ -3,6 +3,7 @@ name: Bachelor Thesis
 tools: [Fluid simulation, Computer Graphics, Cut-Cells]
 image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
 description: Implicit Cut-Cells Implementation for Sub-GridLiquids Simulation
+rank: 4
 # external_url: https://polybox.ethz.ch
 ---
 
@@ -19,11 +20,11 @@ This thesis focused on extending the **cut-cell method**, a method for low resol
 <div class="container">
   <div class="row align-items-center">
 
-    {% assign docs = "bachelor_report.pdf, bachelor_ppt.pdf" | split: ', ' %}
+    {% assign docs = "bachelor_report, bachelor_ppt" | split: ', ' %}
     {% for doc in docs %}
     <div class="col-sm-6">
-      <a href="/assets/projects/{{ doc }}" target="_blank">
-        <img src="/assets/projects/{{ doc }}" alt="{{ doc }}" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black">
+      <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
+        <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{ doc }}" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black; width:100%; height:100%">
       </a>
     </div>
     {% endfor %}
