@@ -1,16 +1,26 @@
+.search-box {
+  box-shadow: none !important;
+}
+
 .project.card {
   border-radius: $rounded-borders;
   text-decoration: none !important;
-  margin: 10px auto;
+  padding: 15px;
+  height: 100%;
 
-  .card-img-top {
-    border-radius: $rounded-borders $rounded-borders 0 0;
+  .card-footer {
+    font-size: 14px;
+    margin: 0 -15px -15px -15px;
+    padding: 15px 35px;
   }
+}
 
-  transition: transform 400ms;
+.project-metadata {
+  font-size: 14px;
+  margin-top: -6px;
 
-  &:hover:not(.post) {
-    transform: translateY(-8px);
-    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+  .tag:hover {
+    background-color: $primary;
+    color: white !important;
   }
 }

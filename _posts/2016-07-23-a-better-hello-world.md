@@ -1,9 +1,9 @@
 ---
-title: A better Hello World
-tags: [Software Development]
-style: fill
-color: dark
+name: A better Hello World
+tools: [Software Development]
+image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
 description: A different “hello world” to demonstrate language features better.
+rank: 1
 ---
 
 Source: [RICO STA. CRUZ](https://ricostacruz.com/til/a-better-hello-world)

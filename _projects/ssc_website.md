@@ -1,29 +1,27 @@
 ---
-name: SSC Website Development
-tools: [Sustainability, Web Development, ETH Zurich]
-image: https://www.sketchappsources.com/resources/source-image/coo-app-concept-subgaurav.jpg
+title: SSC Website Development
+tags: [Sustainability, Web Development, ETH Zurich]
+style: fill
+color: success
 description: Full development of the static website for the Student Sustainability Commission at ETH Zurich
-rank: 3
+date: 20-09-2020
+rank: 2
 ---
 
-# {{ page.name }}
 In Autumn 2020, I was fully responsible for the deployment of the new website for the Student Sustainability Commission, an ETH Zurich association focusing on bringing a feeling of equality and responsibility to students.
 
 I also was responsible for their new logo.
 
 > [Git repo](https://gitlab.com/maximeraafat/ssc){:target="_blank"} containing the open source code for the SSC website
 
-
 <hr>
 
 <div align="center">
   <a href="https://ssc.ethz.ch" target="_blank">
-    <img src="/assets/projects/ssc_logo.svg" alt="ssc_logo" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black; width:100%; height:100%">
+    <img src="/assets/projects/ssc_logo.svg" alt="ssc_logo" class="img-style">
   </a>
 </div>
 
 <hr>
-<center>
-  <button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button>
-</center>
-<br>
+
+<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>

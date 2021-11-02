@@ -1,9 +1,9 @@
 ---
-title: Do not go gentle into that good night
-tags: [Poetry]
-style: fill
-color: light
-description: 
+name: Do not go gentle into that good night
+tools: [Poetry]
+image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
+description: Benefits of version control and version control systems.
+rank: 3
 ---
 
 Do not go gentle into that good night,  

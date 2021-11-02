@@ -1,10 +1,9 @@
 ---
-title: What is version control?
-tags: [Version Control]
-style: fill
-color: secondary
-comments: true
+name: What is version control?
+tools: [Version Control]
+image: https://www.sketchappsources.com/resources/source-image/coo-app-concept-subgaurav.jpg
 description: Benefits of version control and version control systems.
+rank: 2
 ---
 
 Source: [atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control)

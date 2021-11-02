@@ -1,12 +1,13 @@
 ---
-name: Case Studies Seminar Talks
-tools: [Academics, Seminar, Interdisciplinary]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+title: Case Studies Seminar Talks
+tags: [Academics, Seminar, Interdisciplinary]
+style: fill
+color: danger
 description: Presentation material for the Case Studies seminar for CSE students at ETH Zurich
-rank: 2
+date: 27-05-2021
+rank: 3
 ---
 
-# {{ page.name }}
 The aim of this seminar is for students to get industry insight of related fields in the field, as well as improving the students **presentation skills**, when presenting **scientific publications**.
 {:style="text-align: justify"}
 
@@ -24,7 +25,7 @@ The aim of this seminar is for students to get industry insight of related field
 
       <center><b>{{ title[forloop.index0] }}</b></center>
       <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
-        <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{ doc }}" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black; width:100%; height:100%">
+        <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{ doc }}" class="img-style">
       </a>
 
       {% assign next_index = forloop.index0 | plus: 1 %}
@@ -49,14 +50,12 @@ Below is a last example of a pannel that I presented in the frame of an optional
   <div class="row align-items-center">
     <div class="col-sm-12">
       <a href="/assets/projects/deepfake_ppt.pdf" target="_blank">
-        <img src="/assets/projects/deepfake_ppt.pdf" alt="deepfake_ppt" style="border-radius:{{ site.border}}; background-color:white; border:1px solid black; width:100%; height:100%">
+        <img src="/assets/projects/deepfake_ppt.pdf" alt="deepfake_ppt" class="img-style">
       </a>
     </div>
   </div>
 </div>
 
 <hr>
-<center>
-  <button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button>
-</center>
-<br>
+
+<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>

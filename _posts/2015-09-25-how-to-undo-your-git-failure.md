@@ -1,8 +1,8 @@
 ---
-title: How to undo your git failure?
-tags: [External Post, Git]
-style: fill
-color: warning
+name: How to undo your git failure?
+tools: [External Post, Git]
+image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
 description: Using `git reflog` and `git reset` to save your code.
-external_url: https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74
+rank: 4
+# external_url: https://polybox.ethz.ch
 ---

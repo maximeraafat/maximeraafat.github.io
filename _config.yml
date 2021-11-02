@@ -15,9 +15,6 @@ github: [metadata]
 plugins:
   - jemoji
 
-### Border radius for projects ###
-border: 10px
-
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
@@ -49,13 +46,13 @@ author:
   # keybase           : your_username
 
 ### Posts ###
-permalink: /blog/:title
+permalink: /blog/:name
 
 ### Collections ###
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /projects/:title
 
 ### Disqus ###
 disqus:
@@ -75,11 +72,12 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "page"
+      layout: "project"
   - scope:
       path: ""
       type: "posts"
     values:
+      layout: "page"
       comments: false # Set to true to enable disqus comments
 
 
