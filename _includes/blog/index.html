@@ -1,12 +1,11 @@
-
 <div class="card-columns m-3 mt-5">
 
   <!-- Remote Posts -->
-  {% for remote_posts in page.remote_posts %}
+  {% for remote_post in page.remote_posts %}
 
     {%- for repo in site.github.public_repositories -%}
 
-      {%- if remote_posts == repo.name -%}
+      {%- if remote_post == repo.name -%}
 
         {%- assign post = repo -%}
         {%- assign words = post.name | split: '-' -%}
@@ -35,7 +34,7 @@
   {% endfor %}
 
   <!-- Local Posts -->
-  {% assign sorted_posts = (site.posts | sort: 'rank' | reverse %}
+  {% assign sorted_posts = (site.pages | sort: 'rank' | reverse %}
   {% for post in sorted_posts %}
     {%- assign post_type  = "local" -%}
     {%- assign post_id    = post.name | slugify -%}

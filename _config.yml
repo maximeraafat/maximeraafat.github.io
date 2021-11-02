@@ -53,6 +53,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title
+  pages:
+    output: true
+    permalink: /pages/:name
 
 ### Disqus ###
 disqus:
@@ -75,7 +78,7 @@ defaults:
       layout: "project"
   - scope:
       path: ""
-      type: "posts"
+      type: "pages"
     values:
       layout: "page"
       comments: false # Set to true to enable disqus comments
