@@ -14,11 +14,6 @@ github: [metadata]
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-compress-images
-
-### Compress Images ###
-compress_images:
-  images_path: "assets/**/*.{gif,png,jpg,jpeg,svg}"
 
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
