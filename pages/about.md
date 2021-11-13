@@ -10,7 +10,7 @@ weight: 3
 Hi I am **{{ site.author.name }}**!
 <br>
 
-<script src ="{{site.url}}/js/calculateAge.js"></script>
+<script src ="/js/calculateAge.js"></script>
 
 Already <script> document.write(calculateAge(1998, 06, 18)) </script> revolutions around the sun, still not a single coffee during my long coding nights (and days). <br>
 I aspire to make the world a better place through AI and computer vision driven innovations, while still enjoying each moment spent along my family, friends and PlayStation.
