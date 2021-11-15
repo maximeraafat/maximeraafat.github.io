@@ -1,0 +1,47 @@
+{% if col_sm_nb %}
+  <div class="container">
+    <div class="row align-items-center">
+
+      {% for doc in docs %}
+        <div class="col-sm-{{col_sm_nb}}">
+
+          <center><b>{{ title[forloop.index0] }}</b></center>
+
+          {% if no_cover == true %}
+            <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
+              <img src="/assets/projects/{{ doc }}.pdf" alt="{{ doc }}" class="img-style">
+            </a>
+          {% else %}
+            <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
+              <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{ doc }}" class="img-style">
+            </a>
+          {% endif %}
+
+          {% assign next_index = forloop.index0 | plus: 1 %}
+          {% if title and next_index < forloop.length%}
+            <hr>
+          {% endif %}
+
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+
+{% else %}
+  <div align="center">
+    {% for doc in docs %}
+
+        {% if no_cover %}
+        <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
+          <img src="/assets/projects/{{ doc }}.pdf" alt="{{doc}}" class="img-style">
+        </a>
+        {% else %}
+        <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
+          <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{doc}}" class="img-style">
+        </a>
+        {% endif %}
+
+    {% endfor %}
+  </div>
+{% endif %}

@@ -22,6 +22,4 @@ I also was responsible for their new logo.
   </a>
 </div>
 
-<hr>
-
-<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>
+{% include back.html %}

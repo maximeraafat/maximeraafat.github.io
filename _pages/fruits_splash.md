@@ -11,4 +11,5 @@ rank: 2
 Here's another result from a tutorial (again by [Blender Guru](https://www.blenderguru.com){:target="_blank"}) I followed soon after the donut project.
 {:style="text-align: justify"}
 
-{% include blog/blog-card.html %}
+{% include blog/img-code.html %}
+{% include back.html %}

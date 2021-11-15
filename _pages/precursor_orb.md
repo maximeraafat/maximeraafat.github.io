@@ -13,4 +13,5 @@ Another game inspired project, this time by Jak and Daxter.
 
 {% assign images = 'PrecursorOrb.jpg, PrecursorOrb.gif' |split: ', ' %}
 
-{% include blog/blog-card.html %}
+{% include blog/img-code.html %}
+{% include back.html %}

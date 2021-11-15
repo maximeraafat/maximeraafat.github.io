@@ -11,4 +11,5 @@ rank: 1
 Like almost every Blender newbie, I started off with the famous donut tutorial by [Blender Guru](https://www.blenderguru.com){:target="_blank"}. Below's my result!
 {:style="text-align: justify"}
 
-{% include blog/blog-card.html %}
+{% include blog/img-code.html %}
+{% include back.html %}

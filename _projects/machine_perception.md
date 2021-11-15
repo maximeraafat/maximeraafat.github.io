@@ -17,12 +17,7 @@ rank: 4
 
 ### Report
 
-<div align="center">
-  <a href="/assets/projects/machine_perception.pdf" target="_blank">
-    <img src="/assets/projects/machine_perception_cover.pdf" alt="machine_perception" class="img-style">
-  </a>
-</div>
+{% assign docs = 'machine_perception' | split: ', ' %}
 
-<hr>
-
-<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>
+{% include projects/doc-code.html %}
+{% include back.html %}

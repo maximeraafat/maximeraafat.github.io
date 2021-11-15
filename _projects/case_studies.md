@@ -15,29 +15,12 @@ The aim of this seminar is for students to get industry insight of related field
 
 <hr>
 
-<div class="container">
-  <div class="row align-items-center">
+{% assign col_sm_nb = 12 %}
+{% assign title = 'Spring 2021, Fall 2020, Spring 2020, Fall 2019' | split: ', ' %}
+{% assign docs = 'CaseStudyFS21, CaseStudyHS20, CaseStudyFS20, CaseStudyHS19' | split: ', ' %}
 
-    {% assign title = "Spring 2021, Fall 2020, Spring 2020, Fall 2019" | split: ', ' %}
-    {% assign docs = "CaseStudyFS21, CaseStudyHS20, CaseStudyFS20, CaseStudyHS19" | split: ', ' %}
-    {% for doc in docs %}
-    <div class="col-sm-12">
 
-      <center><b>{{ title[forloop.index0] }}</b></center>
-      <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
-        <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{ doc }}" class="img-style">
-      </a>
-
-      {% assign next_index = forloop.index0 | plus: 1 %}
-      {% if next_index < forloop.length %}
-        <hr>
-      {% endif %}
-
-    </div>
-    {% endfor %}
-
-  </div>
-</div>
+{% include projects/doc-code.html %}
 
 <hr>
 
@@ -46,16 +29,8 @@ The aim of this seminar is for students to get industry insight of related field
 Below is a last example of a pannel that I presented in the frame of an optional lecture, discussing the ethical challenges involved in rapidly emerging technologies such as deepfake.
 {:style="text-align: justify"}
 
-<div class="container">
-  <div class="row align-items-center">
-    <div class="col-sm-12">
-      <a href="/assets/projects/deepfake_ppt.pdf" target="_blank">
-        <img src="/assets/projects/deepfake_ppt.pdf" alt="deepfake_ppt" class="img-style">
-      </a>
-    </div>
-  </div>
-</div>
+{% assign docs = 'deepfake_ppt' | split: ', ' %}
+{% assign no_cover = true %}
 
-<hr>
-
-<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>
+{% include projects/doc-code.html %}
+{% include back.html %}

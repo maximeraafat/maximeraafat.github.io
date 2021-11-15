@@ -10,4 +10,5 @@ rank: 3
 A project inspired by Rayman 2 : The Great Escape, a game released by Ubisoft.
 {:style="text-align: justify"}
 
-{% include blog/blog-card.html %}
+{% include blog/img-code.html %}
+{% include back.html %}

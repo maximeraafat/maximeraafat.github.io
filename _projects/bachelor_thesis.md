@@ -18,21 +18,8 @@ This thesis focused on extending the **cut-cell method**, a method for low resol
 
 ### Report and Presentation
 
-<div class="container">
-  <div class="row align-items-center">
+{% assign col_sm_nb = 6 %}
+{% assign docs = 'bachelor_report, bachelor_ppt' | split: ', ' %}
 
-    {% assign docs = "bachelor_report, bachelor_ppt" | split: ', ' %}
-    {% for doc in docs %}
-    <div class="col-sm-6">
-      <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
-        <img src="/assets/projects/{{ doc }}_cover.pdf" alt="{{ doc }}" class="img-style">
-      </a>
-    </div>
-    {% endfor %}
-
-  </div>
-</div>
-
-<hr>
-
-<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>
+{% include projects/doc-code.html %}
+{% include back.html %}
