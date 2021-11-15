@@ -1,0 +1,25 @@
+{% assign alt = page.image | split: '/' | last | split: '.' | first %}
+
+{% assign path = page.image | split: '.' | first %}
+{% assign extension = page.image | split: '.' | last %}
+
+{% assign compressed_img = path | append: '_compressed.' | append: extension %}
+
+
+<a href="{{ page.image }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
+
+{% assign folder_path = path | remove: alt %}
+
+{% for img in images %}
+  {% assign alt = img | split: '.' | first %}
+  {% assign extension = img | split: '.' | last %}
+
+  {% assign page_img = folder_path | append: img %}
+  {% assign compressed_img = folder_path | append: alt | append: '_compressed.' | append: extension %}
+
+  <a href="{{ page_img }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
+{% endfor %}
+
+<hr>
+
+<center><button type="button" class="btn btn-outline-primary" onclick="history.back()">Go Back</button></center>
