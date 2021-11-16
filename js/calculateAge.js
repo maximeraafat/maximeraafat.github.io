@@ -16,3 +16,5 @@ function calculateAge(year, month, day) {
     }
   }
 }
+
+document.write( calculateAge(1998, 06, 18) );
