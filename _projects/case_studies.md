@@ -19,7 +19,6 @@ The aim of this seminar is for students to get industry insight of related field
 {% assign title = 'Spring 2021, Fall 2020, Spring 2020, Fall 2019' | split: ', ' %}
 {% assign docs = 'CaseStudyFS21, CaseStudyHS20, CaseStudyFS20, CaseStudyHS19' | split: ', ' %}
 
-
 {% include projects/doc-code.html %}
 
 <hr>

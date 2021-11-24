@@ -8,7 +8,7 @@ rank: 7
 
 # {{ page.name }}
 
-The remake (above) and original post (below)
+The remake (above) and original post (below).
 {:style="text-align: justify"}
 
 {% assign images = 'Banana1.jpg' |split: ', ' %}

@@ -8,7 +8,7 @@ rank: 8
 
 # {{ page.name }}
 
-PlayStation controller
+PlayStation controller.
 {:style="text-align: justify"}
 
 {% include blog/img-code.html %}
