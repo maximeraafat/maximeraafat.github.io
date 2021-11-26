@@ -8,7 +8,7 @@ date: 27-05-2021
 rank: 3
 ---
 
-The aim of this seminar is for students to get industry insight of related fields in the field, as well as improving the students **presentation skills**, when presenting **scientific publications**.
+The aim of the Case Studies seminar is for students to get industry insight from natural and computer sciences (or related fields) from a computational perspective, as well as improving the students **presentation skills**, when showcasing **scientific publications**.
 {:style="text-align: justify"}
 
 > Below you can find the material I created and presented for the seminar.

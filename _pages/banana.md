@@ -7,8 +7,7 @@ rank: 7
 ---
 
 # {{ page.name }}
-
-The remake (above) and original post (below).
+There's always a starting point. Well, for me it all started with bananas. My very first independent project was a banana basked (the one from below, quite obviously). One and a half years later I decided to qualitatively evaluate my progress, which you can visually devour right below.
 {:style="text-align: justify"}
 
 {% assign images = 'Banana1.jpg' |split: ', ' %}

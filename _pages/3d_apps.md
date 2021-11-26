@@ -7,8 +7,7 @@ rank: 12
 ---
 
 # {{ page.name }}
-
-Some nice logos.
+Just some logos with depth, including [GDC](https://gdcz.ch){:target="_blank"}, [SSC](https://ssc.ethz.ch){:target="_blank"} and [Acredius](https://acredius.ch){:target="_blank"}. Check them out!
 {:style="text-align: justify"}
 
 {% assign images = 'Acredius_3D-App.jpg, GDC_3D-App.jpg, IMMERSIVE_3D-App.jpg, SSC_3D-App.jpg, 3D-Apps_Icons.gif'  |split: ', ' %}

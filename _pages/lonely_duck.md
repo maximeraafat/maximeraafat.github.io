@@ -2,12 +2,12 @@
 name: Lonely Duck
 tools: [Blender]
 image: /assets/posts/LonelyDuck.jpg
-description: A little tutorial on texturing (the floor, not the duck)
+description: A tutorial on texturing (the ground, not the duck)
 rank: 6
 ---
 
 # {{ page.name }}
-I had some fun adding a little duck to this tutorial.
+Again a tutorial by [Blender Guru](https://www.blenderguru.com){:target="_blank"} after realising that my texturing skills were not as good as desired. I had some fun adding a quickly modelled duck.
 {:style="text-align: justify"}
 
 {% include blog/img-code.html %}

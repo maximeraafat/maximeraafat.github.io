@@ -9,6 +9,7 @@ rank: 2
 ---
 
 In Autumn 2020, I was fully responsible for the deployment of the new website for the Student Sustainability Commission, an ETH Zurich association focusing on bringing a feeling of equality and responsibility to students.
+{:style="text-align: justify"}
 
 I also was responsible for their new logo.
 

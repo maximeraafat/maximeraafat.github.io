@@ -9,7 +9,7 @@
 }
 
 #theme-toggler:before {
-  @include themed(content, "🏴", "🏳"); // ⚫ ⚪
+  @include themed(content, "\25D0", "\25D1");
 }
 
 .navbar-themed {
