@@ -4,7 +4,7 @@ tags: [Fluid simulation, Computer Graphics, Cut-Cells]
 style: border
 color: warning
 description: Implicit Cut-Cells Implementation for Sub-GridLiquids Simulation
-date: 12-10-2020
+date: 12-06-2020
 rank: 1
 # external_url: https://polybox.ethz.ch
 ---
