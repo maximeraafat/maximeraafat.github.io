@@ -3,6 +3,7 @@
   border: 1px solid black;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   loading: lazy;
   decoding: async;
   content-visibility: auto;
@@ -14,6 +15,7 @@
   border: 1px solid black;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   loading: lazy;
   decoding: async;
   content-visibility: auto;
