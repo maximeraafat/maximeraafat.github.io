@@ -7,9 +7,9 @@ rank: 10
 ---
 
 # {{ page.name }}
-```yaml
+<code>
 Bevels, edge smoothing, studio lighting and volumetric effects.
-```
+</code>
 
 I am quite proud of myself for this simplistic render. All the credits go to the tutorial makers [Blender Guru](https://www.blenderguru.com){:target="_blank"} and [CG Cookie](https://cgcookie.com){:target="_blank"}.
 {:style="text-align: justify"}
