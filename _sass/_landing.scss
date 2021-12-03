@@ -26,3 +26,60 @@
   object-fit: cover;
   object-position: center;
 }
+
+.box {
+  position: absolute;
+  left:0;
+  height: auto;
+  width: 100%;
+  min-width: fit-content;
+  min-height: fit-content;
+  align-items: center;
+}
+
+.box-rounded {
+  margin-right: 6%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 60px;
+}
+
+.red {
+  background: radial-gradient(at bottom left, #8f2f3b, #d04b5b);
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.circle-inbox {
+  width: 85%;
+  border-radius: 50%;
+  border: 1px solid #d04b5b;
+  box-shadow: 0 0 30px black;
+  object-fit: cover;
+}
+
+.title {
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 3em;
+  padding-bottom: 7%;
+}
+
+.btn-outline-light {
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.btn-outline-light:hover, .btn-outline-light:focus, .btn-outline-light:active {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
