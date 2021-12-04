@@ -43,7 +43,7 @@
   margin-bottom: 2%;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding: 60px;
+  padding: 80px;
 }
 
 .red {
@@ -59,20 +59,113 @@
 }
 
 .circle-inbox {
-  width: 85%;
-  min-width: 250px;
+  width: 80%;
   border-radius: 50%;
   border: 1px solid #d04b5b;
   box-shadow: 0 0 30px black;
   object-fit: cover;
 }
 
+.diag-line-one {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+  width: 0;
+  height: 30%;
+  border: 1px solid white;
+  border-radius: 10px;
+  transform: rotate(-45deg);
+  transform-origin: top;
+}
+
+.diag-line-two {
+  position: absolute;
+  left: 73%;
+  top: 80%;
+  width: 0;
+  height: 20%;
+  border: 1px solid white;
+  border-radius: 10px;
+  transform: rotate(-45deg);
+  transform-origin: top;
+}
+
+.square {
+  position: absolute;
+  left: -2%;
+  top: -5%;
+  width: 4vw;
+  height: 4vw;
+  border: 0.25vw solid white;
+  border-radius: 1vw;
+  transform: rotate(-20deg);
+  transform-origin: top;
+}
+
+.line-one {
+  position: absolute;
+  left: 90%;
+  top: 65%;
+  width: 0;
+  height: 15%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.line-two {
+  position: absolute;
+  left: 90%;
+  top: 60%;
+  width: 0;
+  height: 3%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.line-three {
+  position: absolute;
+  left: 90%;
+  top: 56%;
+  width: 0;
+  height: 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.halfcircle {
+  position: absolute;
+  left: 80%;
+  top: 5%;
+  height: 2.5vw;
+  transform: rotate(45deg);
+  transform-origin: top;
+}
+
+.gamepad {
+  position: absolute;
+  left: -7%;
+  top: 95%;
+  height: 4vw;
+  transform: rotate(10deg);
+  transform-origin: top;
+}
+
+.star {
+  position: absolute;
+  left: 120%;
+  top: 90%;
+  height: 4vw;
+  transform: rotate(40deg);
+  transform-origin: top;
+}
+
 .title {
   margin-top: 5%;
   font-weight: bold;
-  font-size: 3em;
-  padding-top: 2%;
-  padding-bottom: 7%;
+  font-size: min(7.5vw, 3em);
+  padding-top: 4vh;
+  padding-bottom: 8vh;
+  text-align: center;
 }
 
 .btn-outline-light {
