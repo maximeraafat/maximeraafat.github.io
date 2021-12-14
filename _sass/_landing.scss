@@ -51,31 +51,6 @@
   object-fit: cover;
 }
 
-.diag-line-one {
-  position: absolute;
-  left: 75%;
-  top: 75%;
-  width: 0;
-  height: 30%;
-  border: 2px solid white;
-  border-radius: 10px;
-  transform: rotate(-45deg);
-  transform-origin: top;
-}
-
-.diag-line-two {
-  position: absolute;
-  left: 73%;
-  top: 80%;
-  width: 0;
-  height: 20%;
-  border: 2px solid white;
-  border-radius: 10px;
-  transform: rotate(-45deg);
-  transform-origin: top;
-}
-
-
 .line-one {
   position: absolute;
   right: 30px;
