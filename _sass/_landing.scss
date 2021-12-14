@@ -1,32 +1,3 @@
-// Fine Circle Responsive Image
-// Inspired by https://stackoverflow.com/a/6615994/10194811
-
-#container {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-}
-
-#dummy {
-  padding-top: 100%; /* 1:1 aspect ratio */
-}
-
-#element {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.circle-image {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-}
-
 .box {
   position: absolute;
   left:0;
@@ -38,28 +9,42 @@
 }
 
 .box-rounded {
+  position: relative;
+  min-height: fit-content;
+  height: 70vh;
   margin-right: 6%;
   margin-top: 3%;
   margin-bottom: 2%;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   padding: 80px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .red {
-  background: radial-gradient(at bottom left, #8f2f3b, #d04b5b);
+  background-image: url("../wallpaper.svg"), radial-gradient(at bottom left, #8f2f3b, #d04b5b);
+  background-size: contain;
 }
 
 .green {
-  background-color: green;
+  background-image: url("../wallpaper.svg"), radial-gradient(at bottom left, #005e03, #00a700);
+  background-size: contain;
 }
 
 .blue {
-  background-color: blue;
+  background-image: url("../wallpaper.svg"), radial-gradient(at bottom left, #054af8, #009aff);
+  background-size: contain;
+}
+
+.yellow {
+  background-image: url("../wallpaper.svg"), radial-gradient(at bottom left, #ffaa39, #ffbd68);
+  background-size: contain;
 }
 
 .circle-inbox {
-  width: 80%;
+  width: 90%;
   border-radius: 50%;
   border: 1px solid #d04b5b;
   box-shadow: 0 0 30px black;
@@ -72,7 +57,7 @@
   top: 75%;
   width: 0;
   height: 30%;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   transform: rotate(-45deg);
   transform-origin: top;
@@ -84,86 +69,47 @@
   top: 80%;
   width: 0;
   height: 20%;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   transform: rotate(-45deg);
   transform-origin: top;
 }
 
-.square {
-  position: absolute;
-  left: -2%;
-  top: -5%;
-  width: 4vw;
-  height: 4vw;
-  border: 0.25vw solid white;
-  border-radius: 1vw;
-  transform: rotate(-20deg);
-  transform-origin: top;
-}
 
 .line-one {
   position: absolute;
-  left: 90%;
-  top: 65%;
+  right: 30px;
+  top: 70%;
   width: 0;
-  height: 15%;
+  height: 20%;
   border: 2px solid white;
   border-radius: 10px;
 }
 
 .line-two {
   position: absolute;
-  left: 90%;
-  top: 60%;
+  right: 30px;
+  top: 63%;
   width: 0;
-  height: 3%;
+  height: 3.5%;
   border: 2px solid white;
   border-radius: 10px;
 }
 
 .line-three {
   position: absolute;
-  left: 90%;
-  top: 56%;
+  right: 30px;
+  top: 59%;
   width: 0;
-  height: 1%;
+  height: 1.5%;
   border: 2px solid white;
   border-radius: 10px;
 }
 
-.halfcircle {
-  position: absolute;
-  left: 80%;
-  top: 5%;
-  height: 2.5vw;
-  transform: rotate(45deg);
-  transform-origin: top;
-}
-
-.gamepad {
-  position: absolute;
-  left: -7%;
-  top: 95%;
-  height: 4vw;
-  transform: rotate(10deg);
-  transform-origin: top;
-}
-
-.star {
-  position: absolute;
-  left: 120%;
-  top: 90%;
-  height: 4vw;
-  transform: rotate(40deg);
-  transform-origin: top;
-}
-
 .title {
-  margin-top: 5%;
   font-weight: bold;
   font-size: min(7.5vw, 3em);
-  padding-top: 4vh;
+  padding-top: 8vh;
   padding-bottom: 8vh;
   text-align: center;
 }
