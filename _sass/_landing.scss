@@ -46,9 +46,25 @@
 .circle-inbox {
   width: 90%;
   border-radius: 50%;
-  border: 1px solid #d04b5b;
+  border: 1px solid #17191a;
   box-shadow: 0 0 30px black;
   object-fit: cover;
+}
+
+.circle-border-red {
+  border: 1px solid #d04b5b;
+}
+
+.circle-border-green {
+  border: 1px solid #00a700;
+}
+
+.circle-border-blue {
+  border: 1px solid #009aff;
+}
+
+.circle-border-yellow {
+  border: 1px solid #ffbd68;
 }
 
 .line-one {
