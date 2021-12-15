@@ -1,24 +1,25 @@
+<script>
+  let navClass = document.getElementsByClassName("navbar-themed")[0];
+  navClass.style.position = "relative";
+</script>
+
 <div class="box">
   <script src='/js/colorRandom.js'></script>
   <div class="box-rounded" id="colorbox">
-    <!-- <div class="container"> -->
-      <div class="row align-items-center">
+    <div class="row align-items-center">
 
-        <div class="col-lg-6" align="center">
-          <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-inbox wow animated zoomIn" id="colorcircle" data-wow-delay=".1s">
-        </div>
-
-        <div class="col-lg-6 title" align="center">
-          <p>{{ site.description }}</p>
-          <button type="button" class="btn btn-outline-light btn-lg" onclick="parent.location='/about'">Get to know me</button>
-        </div>
-
+      <div class="col-lg-6" align="center">
+        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-inbox wow animated zoomIn" id="colorcircle" data-wow-delay=".1s">
       </div>
-    <!-- </div> -->
+
+      <div class="col-lg-6 title" align="center">
+        <p>{{ site.description }}</p>
+        <button type="button" class="btn btn-outline-light btn-lg" onclick="parent.location='/about'">Get to know me</button>
+      </div>
+
+    </div>
     <div class="line-one wow animated zoomIn" data-wow-delay=".1s"></div>
     <div class="line-two wow animated zoomIn" data-wow-delay=".1s"></div>
     <div class="line-three wow animated zoomIn" data-wow-delay=".1s"></div>
   </div>
-
-  {% include footer.html %}
 </div>
