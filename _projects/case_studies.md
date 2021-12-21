@@ -8,7 +8,7 @@ date: 27-05-2021
 rank: 3
 ---
 
-The aim of the Case Studies seminar is for students to get industry insight from natural and computer sciences (or related fields) from a computational perspective, as well as improving the students **presentation skills**, when showcasing **scientific publications**.
+The aim of the **Case Studies** seminar is for students to get industry insights in natural sciences, computer sciences or other related fields, from a computational perspective. Additionally, the course intends to improve the students **presentation skills** when showcasing **scientific publications**.
 {:style="text-align: justify"}
 
 > Below you can find the material I created and presented for the seminar.
@@ -25,9 +25,10 @@ The aim of the Case Studies seminar is for students to get industry insight from
 
 ### Ethical Challenges of Deepfake
 
-Below is a last example of a pannel that I presented in the frame of an optional lecture, discussing the ethical challenges involved in rapidly emerging technologies such as deepfake.
+Below is an other example of a panel I presented in the frame of an optional lecture, discussing the **ethical challenges** involved in rapidly emerging technologies such as **deepfake**.
 {:style="text-align: justify"}
 
+{% assign title = '' | split: ', ' %}
 {% assign docs = 'deepfake_ppt' | split: ', ' %}
 {% assign no_cover = true %}
 

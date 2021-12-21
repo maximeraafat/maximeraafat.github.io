@@ -11,7 +11,7 @@ rank: 9
 The finest alloy collection. Highly limited assets hijacked by Imperial Forces for a greater Purpose.
 </code>
 
-For this sci-fi project inspired by the [Disney's](https://www.disneyplus.com){:target="_blank"} TV show **The Mandalorian**, all rendered textures were modelled procedurally.
+For this sci-fi project inspired by the [Disney's](https://www.disneyplus.com){:target="_blank"} TV show **The Mandalorian**, all textures were modelled procedurally and rendered in Eevee.
 {:style="text-align: justify"}
 
 {% assign images = 'StarWars-Beskar.jpg, StarWars-Phrik.jpg, StarWars-Pyronium.jpg'  |split: ', ' %}

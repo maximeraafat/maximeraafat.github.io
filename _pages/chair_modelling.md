@@ -2,7 +2,7 @@
 name: Scorching Sparks
 tools: [Blender]
 image: /assets/posts/chair_modelling/ChairLighting.jpg
-description: Two amazing tutorials combined in one
+description: Two fantastic tutorials combined in one
 rank: 10
 ---
 
@@ -11,7 +11,7 @@ rank: 10
 Bevels, edge smoothing, studio lighting and volumetric effects.
 </code>
 
-I am quite proud of myself for this simplistic render. All the credits go to the tutorial makers [Blender Guru](https://www.blenderguru.com){:target="_blank"} and [CG Cookie](https://cgcookie.com){:target="_blank"}.
+I am quite proud of myself for this simplistic render. All credits go to [Blender Guru](https://www.blenderguru.com){:target="_blank"} and [CG Cookie](https://cgcookie.com){:target="_blank"} for their inspiring tutorials.
 {:style="text-align: justify"}
 
 {% assign images = 'Chair_EeveeCycles.jpg, ChairModelling1.jpg, ChairModelling2.jpg, ChairModelling3.jpg'  |split: ', ' %}
