@@ -30,7 +30,6 @@ Below is an other example of a panel I presented in the frame of an optional lec
 
 {% assign title = '' | split: ', ' %}
 {% assign docs = 'deepfake_ppt' | split: ', ' %}
-{% assign no_cover = true %}
 
 {% include projects/doc-code.html %}
 {% include back.html %}
