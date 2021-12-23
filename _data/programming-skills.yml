@@ -9,9 +9,9 @@
   color: primary
 
 - name: HTML / CSS
-  percentage: 75
+  percentage: 85
   color: warning
 
 - name: Shell / R / MATLAB / SQL / LaTeX
-  percentage: 65
+  percentage: 70
   color: secondary

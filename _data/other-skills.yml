@@ -1,9 +1,9 @@
 # see bootstrap colors
 
 - name: Blender
-  percentage: 95
+  percentage: 90
   color: info
 
 - name: Inkscape
-  percentage: 85
+  percentage: 80
   color: success
