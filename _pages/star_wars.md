@@ -1,12 +1,12 @@
 ---
-name: Imperial Metals
+title: Imperial Metals
 tools: [Blender]
 image: /assets/posts/star_wars/StarWars-ImperialMetals.jpg
 description: (Almost) a Star Wars story
 rank: 9
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 <code>
 The finest alloy collection. Highly limited assets hijacked by Imperial Forces for a greater Purpose.
 </code>

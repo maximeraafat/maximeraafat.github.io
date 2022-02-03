@@ -5,10 +5,10 @@
 
     {%- for repo in site.github.public_repositories -%}
 
-      {%- if remote_post == repo.name -%}
+      {%- if remote_post == repo.title -%}
 
         {%- assign post = repo -%}
-        {%- assign words = post.name | split: '-' -%}
+        {%- assign words = post.title | split: '-' -%}
 
         {%- capture titlecase -%}
           {%- for word in words -%}
@@ -17,7 +17,7 @@
         {%- endcapture -%}
 
         {%- assign post_type  = "remote" -%}
-        {%- assign post_id    = post.name -%}
+        {%- assign post_id    = post.title -%}
         {%- assign post_img   = false -%}
         {%- assign post_name  = titlecase | strip -%}
         {%- assign post_desc  = post.description -%}
@@ -37,7 +37,7 @@
   {% assign sorted_posts = (site.pages | sort: 'rank' | reverse %}
   {% for post in sorted_posts %}
     {%- assign post_type  = "local" -%}
-    {%- assign post_id    = post.name | slugify -%}
+    {%- assign post_id    = post.title | slugify -%}
 
     <!-- Replace post.image with compressed image -->
     {%- assign path = post.image | split: '.' | first -%}
@@ -45,7 +45,7 @@
     {%- assign compressed_img = path | append: '_compressed.' | append: extension -%}
     {%- assign post_img = compressed_img -%}
 
-    {%- assign post_name  = post.name -%}
+    {%- assign post_name  = post.title -%}
     {%- assign post_desc  = post.description -%}
     {%- assign post_tools = post.tools -%}
 

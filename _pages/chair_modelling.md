@@ -1,12 +1,12 @@
 ---
-name: Scorching Sparks
+title: Scorching Sparks
 tools: [Blender]
 image: /assets/posts/chair_modelling/ChairLighting.jpg
 description: Two fantastic tutorials combined in one
 rank: 10
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 <code>
 Bevels, edge smoothing, studio lighting and volumetric effects.
 </code>

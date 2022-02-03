@@ -46,7 +46,7 @@ author:
   # keybase           : your_username
 
 ### Posts ###
-permalink: /blog/:name
+permalink: /blog/:title
 
 ### Collections ###
 collections:
@@ -55,7 +55,7 @@ collections:
     permalink: /projects/:title
   pages:
     output: true
-    permalink: /blog/:name
+    permalink: /blog/:title
 
 ### Disqus ###
 disqus:

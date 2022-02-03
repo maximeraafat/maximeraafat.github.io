@@ -1,12 +1,12 @@
 ---
-name: Sesame Mochi
+title: Sesame Mochi
 tools: [Blender, DaVinci Resolve]
 image: /assets/posts/sesame_mochi/SesameMochi1.jpg
 description: My first time with geometry nodes
 rank: 14
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 Occasionally, enjoy a little treat. Sesame seeds were modelled via geometry nodes in Blender. Rendered in Cycles and edited in DaVinci Resolve.
 {:style="text-align: justify"}
 

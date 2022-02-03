@@ -1,12 +1,12 @@
 ---
-name: Isometric Sushis
+title: Isometric Sushis
 tools: [Blender]
 image: /assets/posts/isometric_suhis/IsometricSushis_1x1.jpg
 description: Cornered sushis taste better
 rank: 13
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 A few low-poly sushis, served and prepared with love.
 {:style="text-align: justify"}
 

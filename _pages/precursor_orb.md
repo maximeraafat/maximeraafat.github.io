@@ -1,12 +1,12 @@
 ---
-name: Precursor Desert
+title: Precursor Desert
 tools: [Blender]
 image: /assets/posts/precursor_orb/PrecursorSand.jpg
 description: 'A game inspired project : Jak and Daxter'
 rank: 4
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 I have always been fascinated by curved shapes, once I swallowed a stone. As a matter of fact I survived, and many years later came up with this render inspired by **Jak and Daxter**, a beautiful franchise by [Naughty Dog](https://www.naughtydog.com){:target="_blank"}.
 {:style="text-align: justify"}
 
