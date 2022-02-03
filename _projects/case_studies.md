@@ -1,7 +1,7 @@
 ---
 title: Case Studies Seminar Talks
 tags: [Academics, Seminar, Interdisciplinary]
-style: fill
+style: border # fill
 color: danger
 description: Presentation material for the Case Studies seminar for CSE students at ETH Zurich
 date: 27-05-2021

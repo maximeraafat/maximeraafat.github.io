@@ -1,7 +1,7 @@
 ---
 title: SSC Website Development
 tags: [Sustainability, Web Development, ETH Zurich]
-style: fill
+style: border # fill
 color: success
 description: Full development of the static website for the Student Sustainability Commission at ETH Zurich
 date: 20-09-2020
