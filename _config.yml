@@ -7,7 +7,7 @@ baseurl             : ''
 repository          : maximeraafat/maximeraafat.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
 # Opens external URLs in new tab (works for posts, projects and navbar only)
-open_new_tab        : false
+open_new_tab        : true
 
 github: [metadata]
 
