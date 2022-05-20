@@ -7,7 +7,7 @@ rank: 8
 ---
 
 # {{ page.title }}
-Since the age of 4, I was already in the possession of a portal to endless worlds within my grasp. Today, I still enjoy exploring those worlds in 4K, up to 120fps and with path-tracing enabled, that [PlayStation](https://www.playstation.com){:target="_blank"} helped me discover.
+Since the age of 4, I was already in the possession of a portal to endless worlds within my grasp. Today, I still enjoy exploring those worlds in 4K, up to 120fps and with path-tracing enabled.
 {:style="text-align: justify"}
 
 {% include blog/img-code.html %}

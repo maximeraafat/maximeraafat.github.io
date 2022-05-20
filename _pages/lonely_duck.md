@@ -7,7 +7,7 @@ rank: 6
 ---
 
 # {{ page.title }}
-Again a tutorial by [Blender Guru](https://www.blenderguru.com){:target="_blank"} after recognizing that my texturing skills were not as good. I later on had some fun adding a quickly modelled rubber duck.
+Again a tutorial by [Blender Guru](https://www.blenderguru.com){:target="_blank"} after realizing that my texturing skills were not so good. I later on had some fun adding a quickly modelled rubber duck.
 {:style="text-align: justify"}
 
 {% include blog/img-code.html %}
