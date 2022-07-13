@@ -35,7 +35,7 @@ While obtaining renderings might be considered a straight forward process for 3D
       <a href="/assets/posts/donut_3/Donut3_NeRF.gif" target="_blank">
         <img src="/assets/posts/donut_3/Donut3_NeRF_compressed.gif" alt="donut3_nerf" class="img-style">
       </a>
-      <center><b>NeRF-predicted images</b></center>
+      <center><b>NeRF-synthesized images</b></center>
     </div>
 
   </div>
