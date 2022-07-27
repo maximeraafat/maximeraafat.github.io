@@ -12,7 +12,7 @@ rank: 6
 Rendering is a computationally intensive process ; generating photorealistic scenes can take seconds to hours depending on the scene complexity, hardware properties and the computational resources available to the 3D software.
 {:style="text-align: justify"}
 
-While obtaining renderings might be considered a straight forward process for 3D artists, obtaining the additional camera information necessary for [NeRF](https://www.matthewtancik.com/nerf){:target="_blank"}-based models can be discouraging, even for python familiar users or machine learning developers. This [Blender](https://www.blender.org){:target="_blank"} add-on aims at solving this issue, enabling artists to easily integrate AI in their creative flow while also facilitating research.
+While rendering might be considered a straight forward process for 3D artists, obtaining the additional camera information necessary for [NeRF](https://www.matthewtancik.com/nerf){:target="_blank"}-based models can be discouraging, even for python familiar users or machine learning developers. This [Blender](https://www.blender.org){:target="_blank"} add-on aims at solving this issue, enabling artists to easily integrate AI in their creative flow while also facilitating research.
 {:style="text-align: justify"}
 
 > Download the add-on right here, or visit my GitHub for further details!
