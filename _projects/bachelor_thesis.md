@@ -1,6 +1,6 @@
 ---
 title: Bachelor Thesis
-tags: [Fluid simulation, Computer Graphics, Cut-Cells]
+tags: [Fluid Simulation, Computer Graphics, Cut-Cells]
 style: border
 color: warning
 description: Implicit Cut-Cells Implementation for Sub-GridLiquids Simulation
