@@ -11,7 +11,7 @@ rank: 2
 In Summer and Autumn 2020, I was fully responsible for the deployment of the refreshed website of the **Student Sustainability Commission**, an ETH Zurich association whose core mission is to spread a feeling of sustainability, equity and responsibility to students.
 {:style="text-align: justify"}
 
-> [Git repo](https://gitlab.com/maximeraafat/ssc){:target="_blank"} containing the open source code for the SSC website
+> [Git repo](https://gitlab.com/maximeraafat/ssc){:target="_blank"} containing the open source code for the SSC website.
 
 <hr>
 
