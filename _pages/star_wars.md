@@ -1,7 +1,7 @@
 ---
 title: Imperial Metals
 tools: [Blender]
-image: /assets/posts/star_wars/StarWars-ImperialMetals.jpg
+image: /assets/posts/star_wars/StarWarsImperialMetals.jpg
 description: (Almost) a Star Wars story
 rank: 9
 ---
@@ -14,7 +14,7 @@ The finest alloy collection. Highly limited assets hijacked by Imperial Forces f
 For this sci-fi project inspired by the [Disney's](https://www.disneyplus.com){:target="_blank"} TV show **The Mandalorian**, all textures were modelled procedurally and rendered in Eevee.
 {:style="text-align: justify"}
 
-{% assign images = 'StarWars-Beskar.jpg, StarWars-Phrik.jpg, StarWars-Pyronium.jpg'  |split: ', ' %}
+{% assign images = 'StarWarsBeskar.jpg, StarWarsPhrik.jpg, StarWarsPyronium.jpg'  |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

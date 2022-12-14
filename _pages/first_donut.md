@@ -1,7 +1,7 @@
 ---
 title: First Donut
 tools: [Blender]
-image: /assets/posts/1st-Donut.jpg
+image: /assets/posts/FirstDonut.jpg
 description: My very first project in Blender
 rank: 1
 ---

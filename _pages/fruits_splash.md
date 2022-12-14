@@ -1,7 +1,7 @@
 ---
 title: Fruits in Fluid-Sim
 tools: [Blender]
-image: /assets/posts/FruitSplash_Art.jpg
+image: /assets/posts/FruitSplashArt.jpg
 description: First physics simulation
 rank: 2
 ---
