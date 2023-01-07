@@ -14,7 +14,7 @@ Whether a VFX artist, a research fellow or a graphics amateur, **BlenderNeRF** i
 Rendering is an expensive computation. Photorealistic scenes can take seconds to hours to render depending on the scene complexity, hardware and available software resources.
 {:style="text-align: justify"}
 
-NeRFs can speed up this process, but require camera information typically extracted via cumbersome code. This Blender add-on enables anyone to get renders and cameras with a single click in Blender.
+NeRFs can speed up this process, but require camera information typically extracted via cumbersome code. This add-on enables anyone to get renders and cameras with a single click in Blender.
 
 > Download the add-on right here, or visit my GitHub for further details!
 
