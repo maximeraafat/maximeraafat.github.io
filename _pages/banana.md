@@ -7,6 +7,8 @@ rank: 7
 ---
 
 # {{ page.title }}
+<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+
 There's always a starting point. Well, for me it all started with bananas. My very first self-made project was a banana basket (the one from below, quite obviously). One and a half years later I decided to qualitatively evaluate my progress with a reiteration, which you can visually devour right below.
 {:style="text-align: justify"}
 

@@ -90,3 +90,6 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+width: 85% # page line width
+height: 1px # page line height

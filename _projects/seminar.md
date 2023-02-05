@@ -8,44 +8,19 @@ date: 19-12-2022
 rank: 3
 ---
 
-### Research Talks
-
-During my time at the [VLG](https://vlg.inf.ethz.ch){:target="_blank"}, I have occasionally been responsible for hosting our group's **weekly talk** with purpose of sharing knowledge in a field related to our lab's research direction.
+<hr style='visibility:hidden'>
+Throughout my studies at ETH and my time as a research assistant at the [VLG](https://vlg.inf.ethz.ch){:target="_blank"}, I have been given the opportunity to present various works and research papers in the frame of **seminars**. The aim for these talks were either to explore a related research topic in depth, or to improve one's **presentation skills** in the context of **scientific writing**.
+{:style="text-align: justify"}
+<hr style='visibility:hidden'>
 
 > Below you will find the material I presented during these talks.
 
-<hr>
+<hr style='height:{{site.height}}'>
 
 {% assign col_sm_nb = 12 %}
-{% assign title = 'Fall 2022, Spring 2022' | split: ', ' %}
-{% assign docs = 'pointnerf, eg3d' | split: ', ' %}
 
-{% include projects/doc-code.html %}
-
-<hr>
-
-### Case Studies
-
-The aim of the **Case Studies** seminar is for students in Computatial Sciences to get industry insights in natural sciences, computer sciences or other related fields from a computational perspective. The course further intends to improve the students **presentation skills** when showcasing **scientific publications**.
-{:style="text-align: justify"}
-
-<hr>
-
-{% assign col_sm_nb = 12 %}
-{% assign title = 'Spring 2021, Fall 2020, Spring 2020, Fall 2019' | split: ', ' %}
-{% assign docs = 'CaseStudyFS21, CaseStudyHS20, CaseStudyFS20, CaseStudyHS19' | split: ', ' %}
-
-{% include projects/doc-code.html %}
-
-<hr>
-
-### Ethics Class
-
-Below is an other example of a panel I presented in the frame of an optional course, discussing the **ethical challenges** involved in rapidly emerging technologies such as **deepfake**.
-{:style="text-align: justify"}
-
-{% assign title = '' | split: ', ' %}
-{% assign docs = 'deepfake_ppt' | split: ', ' %}
+{% assign title = 'VLG Fall 2022, VLG Spring 2022, Seminar Spring 2021, Seminar Fall 2020, Seminar Spring 2020, Seminar Fall 2019, Ethics Class' | split: ', ' %}
+{% assign docs = 'pointnerf, eg3d, CaseStudyFS21, CaseStudyHS20, CaseStudyFS20, CaseStudyHS19, deepfake_ppt' | split: ', ' %}
 
 {% include projects/doc-code.html %}
 {% include back.html %}

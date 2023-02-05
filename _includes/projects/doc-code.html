@@ -10,7 +10,7 @@
           </a>
           {% assign next_index = forloop.index0 | plus: 1 %}
           {% if title and next_index < forloop.length%}
-            <hr>
+          <hr style='height:{{site.height}}'>
           {% endif %}
         </div>
       {% endfor %}

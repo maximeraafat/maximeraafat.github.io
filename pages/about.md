@@ -6,6 +6,7 @@ weight: 3
 ---
 
 # **About Me**
+<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 Hi, I am **Maxime**!
 

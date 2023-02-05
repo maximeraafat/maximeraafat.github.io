@@ -7,6 +7,8 @@ rank: 10
 ---
 
 # {{ page.title }}
+<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+
 <code>
 Bevels, edge smoothing, studio lighting and volumetric effects.
 </code>
