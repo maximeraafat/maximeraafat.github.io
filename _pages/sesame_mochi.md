@@ -6,7 +6,7 @@ description: My first time with geometry nodes
 rank: 14
 ---
 
-# {{ page.title }}
+# **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 Occasionally, enjoy a little treat. Sesame seeds were modelled via geometry nodes in Blender. Rendered in Cycles and edited in DaVinci Resolve.

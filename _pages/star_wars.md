@@ -6,7 +6,7 @@ description: (Almost) a Star Wars story
 rank: 9
 ---
 
-# {{ page.title }}
+# **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 <code>

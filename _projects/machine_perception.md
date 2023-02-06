@@ -17,7 +17,7 @@ rank: 4
 
 <hr style='height:{{site.height}}'>
 
-### Report
+### **Report**
 
 {% assign docs = 'machine_perception' | split: ', ' %}
 

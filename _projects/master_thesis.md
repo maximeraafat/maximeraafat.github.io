@@ -22,7 +22,7 @@ This pipeline offers several advantages over current rival techniques, such as g
 
 <hr style='height:{{site.height}}'>
 
-### Report and Presentation
+### **Report and Presentation**
 
 {% assign col_sm_nb = 6 %}
 {% assign docs = 'master_report, master_ppt' | split: ', ' %}

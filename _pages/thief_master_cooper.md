@@ -6,7 +6,7 @@ description: 'A game inspired project : Sly Cooper'
 rank: 5
 ---
 
-# {{ page.title }}
+# **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 When [Sucker Punch](https://www.suckerpunch.com){:target="_blank"} released their spectacular title **Sly Cooper**, I very quickly became captivated by the soon-becoming franchise. 15 years down the line, I decided to play the charming raccoon's story again and to give it a little attention on my 3D graphics journey.

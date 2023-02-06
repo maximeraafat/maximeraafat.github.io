@@ -6,7 +6,7 @@ description: Two fantastic tutorials combined in one
 rank: 10
 ---
 
-# {{ page.title }}
+# **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 <code>

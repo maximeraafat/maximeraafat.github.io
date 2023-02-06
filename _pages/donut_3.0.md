@@ -6,7 +6,7 @@ description: Let's start over, with a little tweak
 rank: 16
 ---
 
-# {{ page.title }}
+# **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 It was a pleasure to revisit some of the basics, while adding my own touch to [Blender Guru's](https://www.blenderguru.com){:target="_blank"} famous Donut series. This one is fully procedural in geometry and shaders, no textures whatsoever. [Find out](/projects/blender_nerf) how I used AI to create a perfect clone of this delicious torus!

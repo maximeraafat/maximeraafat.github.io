@@ -20,7 +20,7 @@ Although those techniques are very effective for visually realistic low cost flu
 
 <hr style='height:{{site.height}}'>
 
-### Report and Presentation
+### **Report and Presentation**
 
 {% assign col_sm_nb = 6 %}
 {% assign docs = 'bachelor_report, bachelor_ppt' | split: ', ' %}

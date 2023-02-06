@@ -6,7 +6,7 @@ description: A story of flowers, steel, and geo nodes
 rank: 15
 ---
 
-# {{ page.title }}
+# **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
 <code>Metallic geometry nodes flowers</code>, engineered following the excellent tutorial by [Bad Normals](https://www.youtube.com/c/BadNormals){:target="_blank"}. Check him out!
