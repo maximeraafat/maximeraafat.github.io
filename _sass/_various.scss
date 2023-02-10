@@ -8,3 +8,23 @@
   decoding: async;
   content-visibility: auto;
 }
+
+.youtube-div {
+  position: relative;
+}
+
+.youtube-text {
+  position: absolute;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-left: 1px;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 0.9em;
+  border-top-right-radius: 0.15em;
+  border-bottom-right-radius: 0.15em;
+}

@@ -13,10 +13,11 @@ rank: 15
 {:style="text-align: justify"}
 
 {% assign images = 'BadNormalPlants_Eevee1.jpg, BadNormalPlants_Cycles2.jpg, BadNormalPlants_Eevee2.jpg, BadNormalPlants_Cycles3.jpg, BadNormalPlants_Eevee3.jpg, BadNormalPlants.jpg'  |split: ', ' %}
-
 {% include blog/img-code.html %}
 
-<!-- todo : make template for image with unrelated link (instead of img with same compressed img)  -->
-<a href="https://youtu.be/o3NMBlE9LqQ" target="_blank" style="display:block"> ![BadNormalPlants](/assets/posts/bad_normal_plants/BadNormalPlants.gif){:class="img-style"} </a>
+<div class="youtube-div">
+    <img src="/assets/posts/bad_normal_plants/BadNormalPlants.gif" alt="BadNormalPlants" class="img-style">
+    <a href="https://youtu.be/o3NMBlE9LqQ" target="_blank" style="display:block"><b class="youtube-text"> Watch on YouTube </b></a>
+</div>
 
 {% include back.html %}
