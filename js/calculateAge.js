@@ -5,14 +5,15 @@ function calculateAge(year, month, day) {
   var currentDay = currentDate.getUTCDate();
 
   var age = currentYear - year;
-  if (currentMonth > month) {
+  if (currentMonth < month) {
+    return --age;
+  } else if (currentMonth > month) {
     return age;
-  } else {
+  } else if (currentMonth == month) {
     if (currentDay >= day) {
       return age;
     } else {
-      age--;
-      return age;
+      return --age;
     }
   }
 }
