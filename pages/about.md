@@ -21,8 +21,8 @@ You saw enough already? I highly recommend checking out [Kurzgesagt](https://www
 {:style="text-align: justify"}
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Coding Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Software Skills" source=site.data.other-skills %}
 </div>
 
 <div class="row">

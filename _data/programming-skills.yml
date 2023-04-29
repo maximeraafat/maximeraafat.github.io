@@ -4,13 +4,14 @@
   percentage: 95
   color: danger
 
+- name: HTML / CSS
+  percentage: 75
+  color: warning
+
 - name: C++ / C
   percentage: 80
   color: primary
 
-- name: HTML / CSS
-  percentage: 85
-  color: warning
 
 - name: Shell / R / MATLAB / SQL / LaTeX
   percentage: 70
