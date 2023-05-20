@@ -11,10 +11,10 @@ rank: 19
 
 
 <code>
-Crisp, cheesy and spicy, with a touch of fresh basil.
+Crisp, cheesy and spicy, with a pinch of fresh basil.
 </code>
 
-Homemade pizza, with Adobe Firefly and a touch of carefully crafted prompts. Dinner is ready.
+Homemade pizza, baked using Adobe Firefly and a touch of carefully crafted prompts. Dinner is ready
 {:style="text-align: justify"}
 
 {% assign images = 'FireflyPizza.jpg, FireflyPizzaBorder.jpg' |split: ', ' %}
