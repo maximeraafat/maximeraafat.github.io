@@ -14,7 +14,7 @@ rank: 19
 Crisp, cheesy and spicy, with a pinch of fresh basil.
 </code>
 
-Homemade pizza, baked using Adobe Firefly and a touch of carefully crafted prompts. Dinner is ready
+Homemade pizza, baked using Adobe Firefly and a touch of carefully crafted prompts. Dinner is ready.
 {:style="text-align: justify"}
 
 {% assign images = 'FireflyPizza.jpg, FireflyPizzaBorder.jpg' |split: ', ' %}
