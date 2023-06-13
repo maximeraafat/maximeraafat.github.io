@@ -12,7 +12,7 @@ rank: 14
 Occasionally, enjoy a little treat. Sesame seeds were modelled via geometry nodes in Blender. Rendered in Cycles and edited in DaVinci Resolve.
 {:style="text-align: justify"}
 
-{% assign images = 'SesameMochi2.jpg, SesameMochi3.jpg, SesameMochi4.jpg, SesameMochi_Animation.gif'  |split: ', ' %}
+{% assign images = 'SesameMochi2.jpg, SesameMochi3.jpg, SesameMochi4.jpg, SesameMochi_Animation.gif' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

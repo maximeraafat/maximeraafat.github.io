@@ -12,7 +12,7 @@ rank: 12
 Sometimes I just loose myself into ideas and end up with logos for [GDC](https://gdcz.gitlab.io/home/){:target="_blank"}, [SSC](https://ssc.ethz.ch){:target="_blank"} and [Acredius](https://acredius.ch){:target="_blank"}. Check them out!
 {:style="text-align: justify"}
 
-{% assign images = 'Acredius3D.jpg, GDC3D.jpg, IMMERSIVE3D.jpg, SSC3D.jpg, 3DApps.gif'  |split: ', ' %}
+{% assign images = 'Acredius3D.jpg, GDC3D.jpg, IMMERSIVE3D.jpg, SSC3D.jpg, 3DApps.gif' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

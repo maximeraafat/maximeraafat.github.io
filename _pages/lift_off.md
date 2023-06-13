@@ -13,9 +13,11 @@ rank: 18
 {:style="text-align: justify"}
 {% include blog/img-code.html %}
 
-<div class="youtube-div">
-    <img src="/assets/posts/LIFTOFF.gif" alt="LIFTOFF" class="img-style">
-    <a href="https://youtu.be/Qgk2A0mrgBw" target="_blank" style="display:block"><b class="youtube-text"> Watch on YouTube </b></a>
+{% assign gif = "/assets/posts/LIFTOFF.gif" %}
+<a href="{{ gif }}" target="_blank" style="display:block"> ![{{ LIFTOFF }}]({{ gif }}){:class="img-style"} </a>
+
+<div class="youtube">
+    <iframe src="https://www.youtube.com/embed/Qgk2A0mrgBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 {% include back.html %}
