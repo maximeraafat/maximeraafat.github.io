@@ -4,6 +4,10 @@
   percentage: 90
   color: info
 
+- name: DaVinci Resolve
+  percentage: 80
+  color: lightcoral
+
 - name: Inkscape
   percentage: 80
   color: success
