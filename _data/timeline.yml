@@ -1,10 +1,15 @@
+- title: Computer Vision Specialist
+  from: 2023
+  to: CURRENT
+  location: ETH Juniors, Switzerland
+  description: Detection and identification of gold bars counterfeit for authenticity verification.
+
 - title: Computer Vision Research Assistant
   from: 2022
   to: 2023
   location: ETH Zurich, Switzerland
   description: Full time <b>Scientific Assistant</b> at the <a href="https://vlg.inf.ethz.ch" target="_blank">VLG</a> under Professor Siyu Tang. <br>
-               Focus on 3D scene reconstruction and novel view synthesis tasks.
-
+               Focus on point-based 3D scene reconstruction and novel view synthesis tasks.
 
 - title: CSE Master Student
   from: 2020
@@ -18,4 +23,4 @@
   to: 2020
   location: ETH Zurich,  Switzerland
   description: Bachelor in <b>Computational Science and Engineering</b> at ETH Zurich. <br>
-              Specialization in robotics with a focus in control theory.
+               Specialization in robotics with a focus in control theory.
