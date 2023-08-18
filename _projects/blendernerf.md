@@ -4,7 +4,7 @@ tags: [Computer Vision, Computer Graphics, AI, Blender]
 style: border
 color: lightcoral !important # need !important to override bootstrap class
 description: Easy NeRF synthetic dataset creation within Blender
-date: 13-07-2022
+date: 18-08-2023
 rank: 6
 # external_url: https://github.com/maximeraafat/BlenderNeRF
 ---
@@ -16,7 +16,7 @@ Whether a VFX artist, a research fellow or a graphics amateur, **BlenderNeRF** i
 Rendering is an expensive computation. Photorealistic scenes can take seconds to hours to render depending on the scene complexity, hardware and available software resources.
 {:style="text-align: justify"}
 
-NeRFs can speed up this process, but require camera information typically extracted via cumbersome code. This add-on enables anyone to get renders and cameras with a single click in Blender.
+NeRFs can speed up this process, but require camera information typically extracted via cumbersome code. This plugin enables anyone to get renders and cameras with a single click in Blender.
 {:style="text-align: justify"}
 <hr style='visibility:hidden'>
 
@@ -27,23 +27,8 @@ NeRFs can speed up this process, but require camera information typically extrac
 
 <hr style='height:{{site.height}}'>
 
-<div class="container" align="center">
-  <div class="row align-items-center">
-    <div class="col-sm-6">
-      <a href="/assets/posts/donut_3/Donut3.gif" target="_blank">
-        <img src="/assets/posts/donut_3/Donut3_compressed.gif" alt="donut3" class="img-style">
-      </a>
-      <center><b>Traditional rendering</b></center>
-    </div>
-
-    <div class="col-sm-6">
-      <a href="/assets/posts/donut_3/Donut3_NeRF.gif" target="_blank">
-        <img src="/assets/posts/donut_3/Donut3_NeRF_compressed.gif" alt="donut3_nerf" class="img-style">
-      </a>
-      <center><b>NeRF-synthesized images</b></center>
-    </div>
-
-  </div>
+<div class="youtube">
+    <iframe src="https://www.youtube.com/embed/C8YuDoU11cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 {% include back.html %}
