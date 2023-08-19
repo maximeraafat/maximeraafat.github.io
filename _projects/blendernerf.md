@@ -5,7 +5,7 @@ style: border
 color: lightcoral !important # need !important to override bootstrap class
 description: Easy NeRF synthetic dataset creation within Blender
 date: 18-08-2023
-rank: 6
+rank: 9
 # external_url: https://github.com/maximeraafat/BlenderNeRF
 ---
 

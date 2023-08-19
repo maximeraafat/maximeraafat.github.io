@@ -2,10 +2,10 @@
 title: Master Thesis
 tags: [3D Avatars, Generative Modelling, Neural Rendering]
 style: border
-color: lightseagreen !important # need !important to override bootstrap class
+color: chocolate !important # need !important to override bootstrap class
 description: Generative Adversarial Networks for view consistent Human Appearance Modelling
 date: 26-09-2022
-rank: 7
+rank: 6
 ---
 
 <hr style='visibility:hidden'>

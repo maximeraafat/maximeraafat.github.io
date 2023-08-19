@@ -1,6 +1,6 @@
 ---
 title: BlenderNeRF
-tools: [Blender]
+tools: [Blender, DaVinci Resolve]
 image: /assets/posts/blendernerf/BlenderNeRF3.jpg
 description: Assets created for the tutorial video
 rank: 20

@@ -2,7 +2,7 @@
 title: Machine Perception Project
 tags: [Optical Flow, Deep Learning, Computer Vision]
 style: border
-color: primary
+color: darkviolet !important # need !important to override bootstrap class
 description: Report for the Machine Perception Project on Estimating Optical Flow
 date: 01-06-2021
 rank: 4
