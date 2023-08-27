@@ -1,24 +1,84 @@
+:root {
+  --border: 2px;
+  --color: #333333;
+  --alpha: rgba(255, 255, 255, 0);
+  --slider: 40px;
+  --margin: 1rem; // image margin from _markdown.scss img tag
+}
+
 .img-style {
   border-radius: 0.15em;
-  border: 1px solid #333333;
+  border: var(--border) solid var(--color);
   width: 100%;
   height: 100%;
   object-fit: cover;
   loading: lazy;
   decoding: async;
   content-visibility: auto;
+  display: inline-block !important;
 }
 
 .youtube {
   position: relative;
-  padding-bottom: 56.25%; // 16:9
+  padding-bottom: calc(56.25% + 2 * var(--margin)); // 16:9
 }
 
 .youtube iframe {
   position: absolute;
   border-radius: 0.15em;
-  border: 1px solid #333333;
+  border: var(--border) solid var(--color);
   width: 100%;
-  height: 100%;
+  height: calc(100% - 2 * var(--margin));;
   object-fit: cover;
+  margin: var(--margin) auto;
+}
+
+.slider-wrapper{
+  position: relative;
+  margin: var(--margin) auto var(--margin);
+}
+
+#slider {
+  -webkit-appearance: none;
+  width: calc(100% + var(--slider));
+  height: 100%;
+  margin-left: calc(var(--slider) / -2);
+  background-color: transparent;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: var(--slider);
+  height: var(--slider);
+  background: url('/assets/chevron.svg') no-repeat center;
+  background-size: contain;
+  border: none;
+  cursor: grab;
+}
+
+.slider-center {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.img-crop {
+  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 50% 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.line {
+  position: absolute;
+  top: calc(var(--margin) * 2);
+  left: 50%;
+  transform: translateX(-50%);
+  height: calc(100% - var(--margin) * 2);
+  width: var(--border);
+  background: linear-gradient(0deg, var(--color) 1%, white 10%, white 90%, var(--color) 99%);
+  z-index: 1;
+  margin-top: calc(var(--margin) * -1);
 }

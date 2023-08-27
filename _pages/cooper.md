@@ -14,7 +14,7 @@ When [Sucker Punch](https://www.suckerpunch.com){:target="_blank"} released thei
 
 > In 2020, the studio released a new masterpiece for PlayStation, **Ghost of Tsushima**, which will definitely be worth your time.
 
-{% assign images = 'ThiefMasterCooper2.jpg' |split: ', ' %}
+{% assign images = 'ThiefMasterCooper1.jpg, ThiefMasterCooper2.jpg' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

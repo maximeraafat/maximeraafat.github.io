@@ -5,17 +5,55 @@
 
 {% assign compressed_img = path | append: '_compressed.' | append: extension %}
 
-
-<a href="{{ page.image }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
+{% unless images %}
+  <a href="{{ page.image }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
+{% endunless %}
 
 {% assign folder_path = path | remove: alt %}
 
+{% assign index = 0 %}
+{% assign skipnext = -1 %}
+<script src="/js/slider.js"></script>
+
 {% for img in images %}
-  {% assign alt = img | split: '.' | first %}
-  {% assign extension = img | split: '.' | last %}
+  {% if index == skipnext %}
+    {% assign index = index | plus: 1 %}
+    {% continue %}
+  {% else %}
+    {% assign alt = img | split: '.' | first %}
+    {% assign extension = img | split: '.' | last %}
 
-  {% assign page_img = folder_path | append: img %}
-  {% assign compressed_img = folder_path | append: alt | append: '_compressed.' | append: extension %}
+    {% assign page_img = folder_path | append: img %}
+    {% assign compressed_img = folder_path | append: alt | append: '_compressed.' | append: extension %}
 
+    {% assign stringindex = index | append: "" %}
+    {% if compare contains stringindex %}
+
+      {% assign skipnext = index | plus: 1 %}
+
+      {% assign altR = images[skipnext] | split: '.' | first %}
+      {% assign extensionR = images[skipnext] | split: '.' | last %}
+
+      {% assign page_imgR = folder_path | append: images[skipnext] %}
+      {% assign compressed_imgR = folder_path | append: altR | append: '_compressed.' | append: extensionR %}
+
+  <div class="slider-wrapper">
+    <a href="{{ page_img }}" target="_blank" style="display:block;">
+      <img src="{{ compressed_img }}" alt="{{ alt }}" class="img-style">
+    </a>
+    <a href="{{ page_imgR }}" target="_blank" style="display:block;">
+      <img src="{{ compressed_imgR }}" alt="{{ altR }}" class="img-style img-crop" id="crop">
+    </a>
+    <div class="slider-center">
+      <input type="range" min="0" max="100" value="50" id="slider" oninput="slide(this)">
+    </div>
+    <div class="line"></div>
+  </div>
+
+    {% else %}
   <a href="{{ page_img }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
+    {% endif %}
+
+  {% assign index = index | plus: 1 | string%}
+  {% endif %}
 {% endfor %}

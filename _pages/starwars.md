@@ -16,7 +16,7 @@ The finest alloy collection. Highly limited assets hijacked by Imperial Forces f
 For this sci-fi project inspired by the [Disney's](https://www.disneyplus.com){:target="_blank"} TV show **The Mandalorian**, all textures were modelled procedurally and rendered in Eevee.
 {:style="text-align: justify"}
 
-{% assign images = 'StarWarsBeskar.jpg, StarWarsPhrik.jpg, StarWarsPyronium.jpg' |split: ', ' %}
+{% assign images = 'StarWarsImperialMetals.jpg, StarWarsBeskar.jpg, StarWarsPhrik.jpg, StarWarsPyronium.jpg' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

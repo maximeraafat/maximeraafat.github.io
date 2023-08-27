@@ -9,10 +9,11 @@ rank: 7
 # **{{ page.title }}**
 <hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
 
-There's always a starting point. Well, for me it all started with bananas. My very first self-made project was a banana basket (the one from below, quite obviously). One and a half years later I decided to qualitatively evaluate my progress with a reiteration, which you can visually devour right below.
+There's always a starting point. Well, for me it all started with bananas. My very first self-made project was a banana basket (the right one, quite obviously). One and a half years later I decided to qualitatively evaluate my progress with a reiteration, which you can visually devour right below.
 {:style="text-align: justify"}
 
-{% assign images = 'Banana1.jpg' |split: ', ' %}
+{% assign compare = '0' |split: ', ' %}
+{% assign images = 'Banana2.jpg, Banana1.jpg' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

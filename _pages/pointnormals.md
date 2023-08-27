@@ -16,7 +16,7 @@ Points Normals extracted from scans.
 Beethoven, Dark Finger Reef Crab and Horned Helmet available on [threedscans](https://threedscans.com){:target="_blank"}.
 {:style="text-align: justify"}
 
-{% assign images = 'PointBeethoven.jpg, PointHornedHelmet.jpg, PointDarkFingerCrab.gif, PointBeethoven.gif, PointHornedHelmet.gif' |split: ', ' %}
+{% assign images = 'PointDarkFingerCrab.jpg, PointDarkFingerCrab.gif, PointBeethoven.jpg, PointBeethoven.gif, PointHornedHelmet.jpg, PointHornedHelmet.gif' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}

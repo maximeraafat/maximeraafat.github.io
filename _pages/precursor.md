@@ -12,7 +12,7 @@ rank: 4
 I have always been fascinated by curved shapes, once I swallowed a stone (by accident). As a matter of fact I survived, and many years later came up with this render inspired by **Jak and Daxter**, a beautiful franchise by [Naughty Dog](https://www.naughtydog.com){:target="_blank"}.
 {:style="text-align: justify"}
 
-{% assign images = 'PrecursorOrb.jpg, PrecursorOrb.gif' |split: ', ' %}
+{% assign images = 'PrecursorSand.jpg, PrecursorOrb.jpg, PrecursorOrb.gif' |split: ', ' %}
 
 {% include blog/img-code.html %}
 {% include back.html %}
