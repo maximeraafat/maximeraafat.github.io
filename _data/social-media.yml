@@ -14,7 +14,7 @@ dribbble:
 email:
   url   : "mailto:"
   icon  : fas fa-envelope
-  color : db4437
+  color : 00b2a9 # db4437
 
 facebook:
   url   : https://www.facebook.com/
@@ -34,8 +34,8 @@ gitlab:
 instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram
-  color : 405de6
-  
+  color : c13584 # 405de6
+
 kaggle:
   url   : https://www.kaggle.com/
   icon  : fab fa-kaggle
