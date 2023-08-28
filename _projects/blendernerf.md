@@ -31,4 +31,12 @@ NeRFs can speed up this process, but require camera information typically extrac
     <iframe src="https://www.youtube.com/embed/C8YuDoU11cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+{% assign gif1 = "/assets/posts/blendernerf/COS.gif" %}
+{% assign gif2 = "/assets/posts/blendernerf/SOF.gif" %}
+{% assign gif3 = "/assets/posts/blendernerf/TTC.gif" %}
+
+<a href="{{ gif }}" target="_blank" style="display:block"> ![{{ COS }}]({{ gif1 }}){:class="img-style"} </a>
+<a href="{{ gif }}" target="_blank" style="display:block"> ![{{ SOF }}]({{ gif2 }}){:class="img-style"} </a>
+<a href="{{ gif }}" target="_blank" style="display:block"> ![{{ TTC }}]({{ gif3 }}){:class="img-style"} </a>
+
 {% include back.html %}
