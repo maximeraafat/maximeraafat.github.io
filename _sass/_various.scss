@@ -1,7 +1,6 @@
 :root {
   --border: 2px;
   --color: #333333;
-  --alpha: rgba(255, 255, 255, 0);
   --slider: 40px;
   --margin: 1rem; // image margin from _markdown.scss img tag
 }
@@ -50,11 +49,11 @@
   -webkit-appearance: none;
   width: var(--slider);
   height: var(--slider);
-  background-color: transparent;
-  background: url('/assets/chevron.svg') no-repeat center;
+  background: url("/assets/chevron.svg") no-repeat center;
   background-size: contain;
   border: none;
   cursor: grab;
+  box-shadow: none;
 }
 
 .slider-center {
