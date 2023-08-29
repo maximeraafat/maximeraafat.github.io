@@ -7,7 +7,7 @@ rank: 19
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 <code>
 Crisp, cheesy and spicy, with a pinch of fresh basil.

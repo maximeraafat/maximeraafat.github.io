@@ -23,7 +23,7 @@
         {%- assign post_desc  = post.description -%}
         {%- assign post_url   = post.html_url -%}
         {%- assign post_tools = post.topics -%}
-        {%- assign external      = true -%}
+        {%- assign external   = true -%}
 
         {% include blog/post-card.html %}
 
@@ -34,7 +34,7 @@
   {% endfor %}
 
   <!-- Local Posts -->
-  {% assign sorted_posts = (site.pages | sort: 'rank' | reverse %}
+  {% assign sorted_posts = site.pages | sort: 'rank' | reverse %}
   {% for post in sorted_posts %}
     {%- assign post_type  = "local" -%}
     {%- assign post_id    = post.title | slugify -%}

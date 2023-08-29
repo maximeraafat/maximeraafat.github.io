@@ -7,7 +7,7 @@ rank: 13
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 A few low-poly sushis, served and prepared with love.
 {:style="text-align: justify"}

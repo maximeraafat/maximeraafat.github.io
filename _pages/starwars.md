@@ -7,7 +7,7 @@ rank: 9
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 <code>
 The finest alloy collection. Highly limited assets hijacked by Imperial Forces for a greater Purpose.

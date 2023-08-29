@@ -7,7 +7,7 @@ rank: 11
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 Back in my second bachelor year, I was shocked by the lack of artistic creativity in my technical university. I thus decided to fictively found GDC, the **Graphic Designer Community** at ETH Zurich.
 {:style="text-align: justify"}

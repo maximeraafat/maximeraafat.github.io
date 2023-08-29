@@ -9,7 +9,7 @@ rank: 9
 # external_url: https://github.com/maximeraafat/BlenderNeRF
 ---
 
-<hr style='visibility:hidden'>
+<hr class="invisible">
 Whether a VFX artist, a research fellow or a graphics amateur, **BlenderNeRF** is the easiest and fastest way to create synthetic [NeRF](https://www.matthewtancik.com/nerf){:target="_blank"} datasets within [Blender](https://www.blender.org){:target="_blank"}. Obtain renders and camera parameters with a single click, while having full user control over the 3D scene and camera!
 {:style="text-align: justify"}
 
@@ -18,14 +18,17 @@ Rendering is an expensive computation. Photorealistic scenes can take seconds to
 
 NeRFs can speed up this process, but require camera information typically extracted via cumbersome code. This plugin enables anyone to get renders and cameras with a single click in Blender.
 {:style="text-align: justify"}
-<hr style='visibility:hidden'>
+<hr class="invisible">
 
 > Download the add-on right here, or visit my GitHub for further details!
 
-<button type="button" class="btn btn-outline-primary" onclick="location.href='https://github.com/maximeraafat/BlenderNeRF/archive/refs/heads/main.zip'"><span class="fa fa-download"></span> Download</button>
-<button type="button" class="btn btn-outline-primary" onclick="window.open('https://github.com/maximeraafat/BlenderNeRF', '_blank'); return false"><span class="fab fa-github"></span> GitHub</button>
+{% assign download = "https://github.com/maximeraafat/BlenderNeRF/archive/refs/heads/main.zip" %}
+{% assign github = "https://github.com/maximeraafat/BlenderNeRF" %}
 
-<hr style='height:{{site.height}}'>
+<button type="button" class="btn btn-outline-primary" onclick="location.href='{{ download }}'"><span class="fa fa-download"></span> Download</button>
+<button type="button" class="btn btn-outline-primary" onclick="window.open('{{ github }}', '_blank'); return false"><span class="fab fa-github"></span> GitHub</button>
+
+<hr class="long">
 
 <div class="youtube">
     <iframe src="https://www.youtube.com/embed/C8YuDoU11cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

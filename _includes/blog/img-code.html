@@ -1,41 +1,49 @@
+<!-- HTML indentation must be this way, unsure why -->
+
 {% assign alt = page.image | split: '/' | last | split: '.' | first %}
-
 {% assign path = page.image | split: '.' | first %}
-{% assign extension = page.image | split: '.' | last %}
 
-{% assign compressed_img = path | append: '_compressed.' | append: extension %}
-
+<!-- Display page image if no images array -->
 {% unless images %}
+
+  {% assign extension = page.image | split: '.' | last %}
+  {% assign compressed_img = path | append: '_compressed.' | append: extension %}
   <a href="{{ page.image }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
 {% endunless %}
 
 {% assign folder_path = path | remove: alt %}
-
 {% assign index = 0 %}
 {% assign skipnext = -1 %}
+
 <script src="/js/slider.js"></script>
 
 {% for img in images %}
+
   {% if index == skipnext %}
+
     {% assign index = index | plus: 1 %}
     {% continue %}
+    <!-- Skip right image of the compare block when index = skipnext -->
+
   {% else %}
+
     {% assign alt = img | split: '.' | first %}
     {% assign extension = img | split: '.' | last %}
-
     {% assign page_img = folder_path | append: img %}
     {% assign compressed_img = folder_path | append: alt | append: '_compressed.' | append: extension %}
 
     {% assign stringindex = index | append: "" %}
+
     {% if compare contains stringindex %}
 
       {% assign skipnext = index | plus: 1 %}
 
+
       {% assign altR = images[skipnext] | split: '.' | first %}
       {% assign extensionR = images[skipnext] | split: '.' | last %}
-
       {% assign page_imgR = folder_path | append: images[skipnext] %}
       {% assign compressed_imgR = folder_path | append: altR | append: '_compressed.' | append: extensionR %}
+  <!-- Right image data (data of next image in array) -->
 
   <div class="slider-wrapper">
     <a href="{{ page_img }}" target="_blank" style="display:block;">
@@ -51,9 +59,13 @@
   </div>
 
     {% else %}
+
   <a href="{{ page_img }}" target="_blank" style="display:block"> ![{{ alt }}]({{ compressed_img }}){:class="img-style"} </a>
+
     {% endif %}
 
-  {% assign index = index | plus: 1 | string%}
+  {% assign index = index | plus: 1 | string %}
+
   {% endif %}
+
 {% endfor %}

@@ -7,7 +7,7 @@ rank: 20
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 <code>
 Are you ready to NeRF? Start with a single click in Blender!

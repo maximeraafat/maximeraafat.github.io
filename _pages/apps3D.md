@@ -7,7 +7,7 @@ rank: 12
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 Sometimes I just loose myself into ideas and end up with logos for [GDC](https://gdcz.gitlab.io/home/){:target="_blank"}, [SSC](https://ssc.ethz.ch){:target="_blank"} and [Acredius](https://acredius.ch){:target="_blank"}. Check them out!
 {:style="text-align: justify"}

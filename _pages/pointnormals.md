@@ -7,7 +7,7 @@ rank: 17
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 <code>
 Points Normals extracted from scans.

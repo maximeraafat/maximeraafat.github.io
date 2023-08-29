@@ -8,14 +8,14 @@ date: 19-12-2022
 rank: 3
 ---
 
-<hr style='visibility:hidden'>
+<hr class="invisible">
 Throughout my studies at ETH and my time as a research assistant at the [VLG](https://vlg.inf.ethz.ch){:target="_blank"}, I have been given the opportunity to present various works and research papers in the frame of **seminars**. The aim for these talks were either to explore a related research topic in depth, or to improve one's **presentation skills** in the context of **scientific writing**.
 {:style="text-align: justify"}
-<hr style='visibility:hidden'>
+<hr class="invisible">
 
 > Below you will find the material I presented during these talks.
 
-<hr style='height:{{site.height}}'>
+<hr class="long">
 
 {% assign col_sm_nb = 12 %}
 

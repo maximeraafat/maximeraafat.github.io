@@ -82,3 +82,20 @@
   z-index: 1;
   margin-top: calc(var(--margin) * -1);
 }
+
+hr.short {
+  margin-left: 0;
+  width: 85%;
+  height: 1px;
+}
+
+hr.long {
+  margin-left: 0;
+  height: 1px;
+}
+
+hr.invisible {
+  visibility: hidden;
+  margin-left: 0;
+  height: 1px;
+}

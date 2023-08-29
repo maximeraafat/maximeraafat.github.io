@@ -7,7 +7,7 @@ rank: 15
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 <code>Metallic geometry nodes flowers</code>, engineered following the excellent tutorial by [Bad Normals](https://www.youtube.com/c/BadNormals){:target="_blank"}. Check him out!
 {:style="text-align: justify"}

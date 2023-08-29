@@ -7,7 +7,7 @@ rank: 18
 ---
 
 # **{{ page.title }}**
-<hr align='left' style='height:{{site.height}}; width:{{site.width}}'>
+<hr class="short">
 
 **Lift Off**, a thrilling collaboration with [Latmac](https://latmac.com){:target="_blank"}, now available on all streaming services.
 {:style="text-align: justify"}

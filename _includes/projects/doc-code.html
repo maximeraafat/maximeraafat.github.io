@@ -1,4 +1,5 @@
 {% if col_sm_nb %}
+
   <div class="container" align="center">
     <div class="row align-items-center">
 
@@ -10,7 +11,7 @@
           </a>
           {% assign next_index = forloop.index0 | plus: 1 %}
           {% if title and next_index < forloop.length%}
-          <hr style='height:{{site.height}}'>
+          <hr class="long">
           {% endif %}
         </div>
       {% endfor %}
@@ -19,6 +20,7 @@
   </div>
 
 {% else %}
+
   <div align="center">
     {% for doc in docs %}
       <a href="/assets/projects/{{ doc }}.pdf" target="_blank">
@@ -26,4 +28,5 @@
       </a>
     {% endfor %}
   </div>
+
 {% endif %}
