@@ -45,9 +45,6 @@ author:
   # vimeo             : your_username
   # keybase           : your_username
 
-### Posts ###
-permalink: /blog/:title
-
 ### Collections ###
 collections:
   projects:
@@ -56,18 +53,9 @@ collections:
   pages:
     output: true
     permalink: /blog/:title
-
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus # Your website Shortname on disqus
-
-
-### Analytics ###
-analytics:
-  enabled: false # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
-
+  vision:
+    output: true
+    permalink: ''
 
 ### Defaults for collections ###
 defaults:
@@ -81,8 +69,11 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: false # Set to true to enable disqus comments
-
+  - scope:
+      path: ""
+      type: "vision"
+    values:
+      layout: "page"
 
 ### Exclude from processing ###
 exclude:
