@@ -18,12 +18,12 @@ It was a pleasure to revisit some of the basics, while adding my own touch to [B
 
 <!-- code to disdplay usdz file stored in asstets/vision/donut.usdz -->
 Quick test .uszd (for iOS)
-<a href="/assets/vision/donut.usdz">
+<a rel="ar" href="/assets/vision/donut.usdz">
     <img src="/assets/vision/donut.jpg">
 </a>
 
 Quick test .reality (for iOS)
-<a href="/assets/vision/donut.reality">
+<a rel="ar" href="/assets/vision/donut.reality">
     <img src="/assets/vision/donut.jpg">
 </a>
 
