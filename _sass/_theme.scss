@@ -16,7 +16,7 @@
   // navigatio bar (header) scrolling with page
   position: sticky;
   top: 0;
-  z-index: 10; // header on top of everything else
+  z-index: 2;
   @include themed(background-color, white, #17191a); // colors of background
 
   .navbar-brand,
