@@ -12,7 +12,7 @@ rank: 21
 _Shadow Caustics_ thrive, as darkness consumes the fading light.
 {:style="text-align: justify"}
 
-{% assign images = 'ShadowCaustics2.jpg, ShadowCaustics3.jpg, ShadowCaustics4.jpg, ShadowCaustics.gif' |split: ', ' %}
+{% assign images = 'ShadowCaustics1.jpg, ShadowCaustics2.jpg, ShadowCaustics3.jpg, ShadowCaustics4.jpg, ShadowCaustics.gif' |split: ', ' %}
 {% include blog/img-code.html %}
 
 <div class="youtube">
