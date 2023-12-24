@@ -3,7 +3,7 @@
   to: TODAY
   location: ETH Juniors, Switzerland
   description: Detection and identification of gold bars counterfeit for authenticity verification. <br>
-               Keypoint and feature detection, description and matching of highly specular and reflective complex surfaces.
+               # Keypoint and feature detection, description and matching of highly specular and reflective complex surfaces.
 
 - title: Computer Vision Research Assistant
   from: 2022
