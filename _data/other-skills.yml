@@ -1,11 +1,11 @@
 # see bootstrap colors
 
 - name: Blender
-  percentage: 90
+  percentage: 95
   color: info
 
 - name: DaVinci Resolve
-  percentage: 80
+  percentage: 90
   color: lightcoral
 
 - name: Inkscape
