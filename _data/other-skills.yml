@@ -4,10 +4,18 @@
   percentage: 95
   color: info
 
+- name: Unreal Engine
+  percentage: 60
+  color: success
+
 - name: DaVinci Resolve
   percentage: 90
   color: lightcoral
 
-- name: Inkscape
+- name: Stable Diffusion A1111
   percentage: 80
-  color: success
+  color: darkviolet !important
+
+- name: Inkscape
+  percentage: 70
+  color: lightseagreen !important
