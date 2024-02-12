@@ -10,7 +10,7 @@ weight: 3
 
 Hi, I am **Maxime**!
 
-Already <script src='/js/calculateAge.js'></script> revolutions around the sun, still not a single coffee during my long coding nights (and days). I aspire to make the world a better place through computer vision, graphics and AI innovations, while still enjoying each moment spent along my family, friends and PlayStation.
+Already <script src='/js/calculateAge.js'></script> revolutions around the sun, still not a single coffee during my long coding nights (and days). I aspire to make the world a better place by enabling and creating visual experiences through computer graphics, vision and AI innovations, while still enjoying each moment spent along my family, friends and PlayStation.
 {:style="text-align: justify"}
 
 Curious for more? Have a look at my [**Projects**](/projects) or my [**Creative Blog**](/blog), where I share some of my favorite homemade creations!
