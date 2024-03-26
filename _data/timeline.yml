@@ -1,6 +1,13 @@
+- title: 3D Computer Vision and AI Engineer
+  from: 2023
+  to: 2024
+  location: SPORTTOTAL.TV
+  description: Transforming live human players from sport games broadcasts into 3D avatars to facilitate immersive 3D viewing experiences. <br>
+               Emphasis on image-based texture reconstruction and neural graphics pipelines.
+
 - title: Computer Vision Specialist
   from: 2023
-  to: TODAY
+  to: 2024
   location: ETH Juniors, Switzerland
   description: Detection and identification of gold bars counterfeit for authenticity verification. <br>
                # Keypoint and feature detection, description and matching of highly specular and reflective complex surfaces.
