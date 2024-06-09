@@ -2,33 +2,33 @@
   from: 2023
   to: 2024
   location: SPORTTOTAL.TV
-  description: Transforming live human players from sport games broadcasts into 3D avatars to facilitate immersive 3D viewing experiences. <br>
-               Emphasis on image-based texture reconstruction and neural graphics pipelines.
+  description: Transforming live human players from sport games broadcasts into controllable avatars for immersive 3D viewing experiences.
+  focus: Image-based appearance reconstruction, synthetic data generation and neural graphics pipelines.
 
 - title: Computer Vision Specialist
   from: 2023
   to: 2024
   location: ETH Juniors, Switzerland
-  description: Detection and identification of gold bars counterfeit for authenticity verification. <br>
-               # Keypoint and feature detection, description and matching of highly specular and reflective complex surfaces.
+  description: Detection and identification of gold bars counterfeit for authenticity verification.
+  focus: Feature detection, extraction and matching of highly specular and reflective complex surfaces.
 
 - title: Computer Vision Research Assistant
   from: 2022
   to: 2023
   location: ETH Zurich, Switzerland
-  description: Full time <b>Scientific Assistant</b> at the <a href="https://vlg.inf.ethz.ch" target="_blank">VLG</a> under Professor Siyu Tang. <br>
-               Focus on point-based 3D scene reconstruction and novel view synthesis tasks.
+  description: Full time scientific assistant at the <a href="https://vlg.inf.ethz.ch" target="_blank">VLG</a> under Professor Siyu Tang.
+  focus: Point-based 3D scene reconstruction and novel view synthesis tasks.
 
 - title: CSE Master Student
   from: 2020
   to: 2022
   location: ETH Zurich,  Switzerland
-  description: Master in <b>Computational Science and Engineering</b> at ETH Zurich. <br>
-               Specialization in computer vision, graphics and AI, with a focus on neural rendering for virtual humans modelling and synthesis.
+  description: Master in <i>Computational Science and Engineering</i> at ETH Zurich.
+  focus: Focus in computer vision, graphics and AI. Neural rendering for virtual humans synthesis.
 
 - title: CSE Bachelor Student
   from: 2017
   to: 2020
   location: ETH Zurich,  Switzerland
-  description: Bachelor in <b>Computational Science and Engineering</b> at ETH Zurich. <br>
-               Specialization in robotics with a focus in control theory.
+  description: Bachelor in <i>Computational Science and Engineering</i> at ETH Zurich.
+  focus: Specialization in robotics with a focus in control theory.

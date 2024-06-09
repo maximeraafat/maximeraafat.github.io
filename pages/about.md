@@ -8,15 +8,15 @@ weight: 3
 # **About Me**
 <hr class="short">
 
-Hi, I am **Maxime**!
+Hi, I'm **Maxime**! I create worlds that do not exist.
 
-Already <script src='/js/calculateAge.js'></script> revolutions around the sun, still not a single coffee during my long coding nights (and days). I aspire to make the world a better place by enabling and creating visual experiences through computer graphics, vision and AI innovations, while still enjoying each moment spent along my family, friends and PlayStation.
+In my <script src='/js/calculateAge.js'></script> years of life experience, I've never touched a single drop of coffee; yet I still prefer coding by night. Through modern computer graphics, computer vision, AI and practical artistic approaches, I aspire to enable visual immersive experiences that make the world a better place. When not sitting at my desk, you'll likely find me enjoying time with my family, friends or PlayStation.
 {:style="text-align: justify"}
 
-Curious for more? Have a look at my [**Projects**](/projects) or my [**Creative Blog**](/blog), where I share some of my favorite homemade creations!
+Curious for more? Check out my [**Projects**](/projects) or my [**Creative Blog**](/blog), where I share some of my favorite homemade creations!
 {:style="text-align: justify"}
 
-You saw enough already? I highly recommend checking out [Kurzgesagt](https://www.youtube.com/inanutshell){:target="_blank"}, a fantastic YouTube channel devoted to storytelling and breaking down factual information in many scientific fields.
+Had enough? I highly recommend checking out [Kurzgesagt](https://www.youtube.com/inanutshell){:target="_blank"}, a fantastic YouTube channel that breaks down scientific topics with engaging storytelling.
 {:style="text-align: justify"}
 
 <div class="row">

@@ -5,7 +5,7 @@
   color: info
 
 - name: Unreal Engine
-  percentage: 60
+  percentage: 70
   color: success
 
 - name: DaVinci Resolve
