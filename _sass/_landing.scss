@@ -107,12 +107,14 @@
   padding-bottom: 8vh;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 1px #282828;
 }
 
 .btn-outline-light {
     margin-top: 2%;
     background-color: rgba(255, 255, 255, 0.2) !important;
-    border-radius: 5em;
+    border-radius: 0.5em;
+    text-shadow: 1px 1px 1px #282828;
 }
 
 .btn-outline-light:hover, .btn-outline-light:focus, .btn-outline-light:active {

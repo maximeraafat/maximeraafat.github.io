@@ -1,6 +1,7 @@
 ### Site Settings ###
 title               : Maxime Raafat
 description         : Hi, I'm MAX!
+metatag:            : I create worlds that do not exist
 # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 baseurl             : ''
 # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
