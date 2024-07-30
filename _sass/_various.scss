@@ -11,10 +11,14 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: inline-block !important;
+  content-visibility: auto;
   loading: lazy;
   decoding: async;
-  content-visibility: auto;
-  display: inline-block !important;
+}
+
+.img-style:fullscreen {
+  object-fit: contain;
 }
 
 #gaussian3D {
