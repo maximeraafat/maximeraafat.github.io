@@ -1,13 +1,10 @@
-Maxime Raafat portfolio Website
+This repository contains the code to my personal portfolio website and is based on the [_portfolYOU_](https://youssefraafatnasry.github.io/portfolYOU) Jekyll theme with [MIT License](./LICENSE).
 
-==================
+# Jekyll
 
-Jekyll theme based on the [**portfolYOU**](https://youssefraafatnasry.github.io/portfolYOU) theme licensed under the [MIT License](./LICENSE).
+* Install _Jekyll_ by following the steps described [here](https://jekyllrb.com/docs)
+* Gem dependency issues can be resolved with
 
-# Jekyll + dependencies
-- Install Jekyll by following the steps explained [here](https://jekyllrb.com/docs).
-
-- To resolve issues related to gem dependencies, try
 ```bash
 bundle update
 ```
