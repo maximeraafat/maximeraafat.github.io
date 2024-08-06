@@ -10,13 +10,13 @@ rank: 9
 ---
 
 <hr class="invisible">
-Whether a VFX artist, a research fellow or a graphics amateur, **BlenderNeRF** is the easiest and fastest way to create synthetic [NeRF](https://www.matthewtancik.com/nerf){:target="_blank"} datasets within [Blender](https://www.blender.org){:target="_blank"}. Obtain renders and camera parameters with a single click, while having full user control over the 3D scene and camera!
+Whether a VFX artist, a research fellow or a graphics amateur, **BlenderNeRF** is the easiest and fastest way to create synthetic [NeRF](https://www.matthewtancik.com/nerf){:target="_blank"} and [Gaussian Splatting](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/){:target="_blank"} datasets within [Blender](https://www.blender.org){:target="_blank"}. Obtain renders and camera parameters with a single click, while having full user control over the 3D scene and camera!
 {:style="text-align: justify"}
 
 Rendering is an expensive computation. Photorealistic scenes can take seconds to hours to render depending on the scene complexity, hardware and available software resources.
 {:style="text-align: justify"}
 
-NeRFs can speed up this process, but require camera information typically extracted via cumbersome code. This plugin enables anyone to get renders and cameras with a single click in Blender.
+NeRFs and Gaussian splats can speed up this process, but require camera information typically extracted via cumbersome code. This plugin enables anyone to get renders and cameras with a single click in Blender.
 {:style="text-align: justify"}
 <hr class="invisible">
 
