@@ -21,7 +21,7 @@ Had enough? I highly recommend checking out [Kurzgesagt](https://www.youtube.com
 
 <div class="row">
 {% include about/skills.html title="Coding Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Software Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Software Skills" source=site.data.software-skills %}
 </div>
 
 <div class="row">

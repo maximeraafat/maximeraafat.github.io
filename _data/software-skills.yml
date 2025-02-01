@@ -5,17 +5,21 @@
   color: info
 
 - name: Unreal Engine
-  percentage: 70
+  percentage: 80
   color: success
+
+- name: NeRFs / 3DGS
+  percentage: 85
+  color: lightcoral
+
+- name: ComfyUI
+  percentage: 80
+  color: darkorange
 
 - name: DaVinci Resolve
   percentage: 90
-  color: lightcoral
-
-- name: Stable Diffusion A1111
-  percentage: 80
-  color: darkviolet !important
+  color: darkviolet
 
 - name: Inkscape
   percentage: 70
-  color: lightseagreen !important
+  color: lightseagreen
