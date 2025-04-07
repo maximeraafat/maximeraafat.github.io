@@ -1,5 +1,5 @@
 ---
-title: 'Thin Film Soap Bubbles'
+title: Thin Film Soap Bubbles
 tools: [Blender, DaVinci Resolve]
 image: /assets/posts/thin_film_soap/ThinFilmSoapBubbles1.jpg
 description: Shader thickness in nanometers

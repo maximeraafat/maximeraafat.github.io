@@ -1,5 +1,5 @@
 ---
-title: 'I GOTTA GO GET IT'
+title: I GOTTA GO GET IT
 tools: [Blender, DaVinci Resolve]
 image: /assets/posts/iggg/ShotIGGG2.jpg
 description: Official visual content
