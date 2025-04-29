@@ -1,4 +1,4 @@
-This repository contains the code to my personal portfolio website and is based on the [_portfolYOU_](https://youssefraafatnasry.github.io/portfolYOU) Jekyll theme with [MIT License](./LICENSE).
+This repository contains the code to my personal portfolio website and is based on the [_portfolYOU_](https://github.com/yousinix/portfolYOU) Jekyll theme with [MIT License](./LICENSE).
 
 # Jekyll
 
