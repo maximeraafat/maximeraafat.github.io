@@ -2,7 +2,7 @@
 title: Dynamic Point Fields
 tags: [Surface Reconstruction, Deformation Fields, Pointclouds]
 style: border
-color: primary
+color: warning
 description: Towards efficient and scalable dynamic surface representations
 date: 05-04-2023
 rank: 8

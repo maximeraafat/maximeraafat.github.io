@@ -1,6 +1,13 @@
+- title: Founder of UV Gen
+  from: 2024
+  to: 2025
+  location: UV Gen
+  description: Empowering game developers and 3D artists with high-quality AI-generated PBR textures, instantly and effortlessly. <a href="https://uvgen.com" target="_blank">Check</a> us out!
+  focus: Seamless PBR texture generation with diffusion models, automated material workflows, and intuitive artist-first interfaces tailored for game development.
+
 - title: 3D Computer Vision and AI Engineer
   from: 2024
-  to: TODAY
+  to: 2025
   location: SPORTTOTAL.TV
   description: Transforming live human players from sport games broadcasts into controllable avatars for immersive 3D viewing experiences.
   focus: Image-based appearance reconstruction, synthetic data generation and neural graphics pipelines.
