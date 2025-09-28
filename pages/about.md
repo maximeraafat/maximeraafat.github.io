@@ -16,7 +16,7 @@ In <script src='/js/calculateAge.js'></script> years of life XP, still not a sin
 Curious for more? Check out my [**Projects**](/projects) or my [**Creative Blog**](/blog), where I share my favorite homemade creations!
 {:style="text-align: justify"}
 
-Had enough? Then definitely give [Kurzgesagt](https://www.youtube.com/inanutshell){:target="_blank"} a look, a fantastic YouTube channel that breaks down scientific topics with engaging storytelling.
+Had enough? Then definitely give [Kurzgesagt](https://www.youtube.com/inanutshell){:target="_blank"} a look! They are one of my favorite YouTube channels and do an excellent job breaking down complex scientific topics through engaging storytelling.
 {:style="text-align: justify"}
 
 <div class="row">
